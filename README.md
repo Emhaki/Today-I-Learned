@@ -14,14 +14,14 @@
         <tr>
             <td class="1주차" style="width: 100px;"><b>1주차 Git/Github</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
-            <td class="Learned" style=" width: 200px;" align="center">☑️ Github - branch</td>
+            <td class="Learned" style=" width: 200px;" align="center">✅ Github - branch</td>
             <td class="Checklist" style="width: 100px;" align="center">&nbsp;</td>
             <td class="Links" style="width: 100px;" align="center">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 100px;">&nbsp;</td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
-            <td class="Learned" style="width: 200px;" align="center">☑️ 특강 정리</td>
+            <td class="Learned" style="width: 200px;" align="center">✅ 특강 정리</td>
             <td class="Checklist" style="width: 100px;" align="center">&nbsp;</td>
             <td class="Links" style="width: 100px;" align="center">&nbsp;</td>
         </tr>
