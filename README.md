@@ -5,7 +5,7 @@
         <tr>
             <th class="빈칸" style="width: 100px;">&nbsp;</th>
             <th class="빈칸" style="width: 100px;" align="center">&nbsp;</th>
-            <th class="Learned" style="width: 200px;" align="center">💻Today I Learned</th>
+            <th class="Learned" style="width: 200px;" align="center">💻Learn about</th>
             <th class="Checklist" style="width: 100px;" align="center">Checklist</th>
             <th class="Links" style="width: 100px;" align="center">Links</th>
         </tr>
