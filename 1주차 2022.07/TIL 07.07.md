@@ -20,7 +20,7 @@ Branch merge
 
 ## 🕓 2:00 ~ 3:00
 
-Gitbub Flow 기본 원칙
+GitHub Flow 기본 원칙
 
 1. master branch는 반드시 배포 가능한 상태여야 한다.
 
