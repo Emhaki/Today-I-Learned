@@ -18,7 +18,7 @@ Branch merge
 - 각 branch에서 작업을 한 이후 이력을 합치기 
 - 브랜치 git, github => 작업
 
-<br>
+-----
 
 ## 🕓 2:00 ~ 3:00
 
@@ -34,5 +34,5 @@ Gitbub Flow 기본 원칙
 
 5. 변경사항을 반영하고 싶다면, master branch에 병합한다.
 
-<br>
+-----
 
