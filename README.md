@@ -14,16 +14,18 @@
         <tr>
             <td class="1주차" style="width: 100px;"><b>1주차 Git/Github</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
-            <td class="Learned" style=" width: 200px;" align="left">[✏️Git / Github](#😤기록을-통한-학습)</td>
+            <td class="Learned" style=" width: 200px;" align="left">
+            [✏️Git / Github](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md#)
+            </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
         </tr>
         <tr>
             <td style="width: 100px;">&nbsp;</td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
-            <td class="Learned" style="width: 200px;" align="left">✏️ [특강](https://github.com/Emhaki/TIL/blob/main/1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md) </td>
+            <td class="Learned" style="width: 200px;" align="left">✏️취업 공부</td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;가치를 제공하는 개발자</td>
         </tr>
         <tr>
             <td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
