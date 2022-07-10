@@ -16,7 +16,7 @@
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
             <td class="Learned" style=" width: 200px;" align="left">
 
-[✏️Git / Github](#1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
+[✏️Git / Github](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
@@ -26,10 +26,10 @@
             <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
             <td class="Learned" style="width: 200px;" align="left">
             
-[✏️특강](#1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md)
+[✏️특강](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;어떤 개발자가 될 것인가 고민</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;Job Search</td>
         </tr>
         <tr>
             <td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
