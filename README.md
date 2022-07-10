@@ -14,13 +14,11 @@
         <tr>
             <td class="1주차" style="width: 100px;"><b>1주차 Git/Github</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
-            <tr><td class="Learned" style=" width: 200px;" align="left">
-            <table><tr><td>
+            <table><tr><td class="Learned" style=" width: 200px;" align="left">
 
-**My Markdown**[✏️Git / Github](#1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
+[✏️Git / Github](#1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
 
 </td><tr></table>
-            </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
         </tr>
