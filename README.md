@@ -1,6 +1,6 @@
 # 😤기록을 통한 학습
 
-<table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: auto;">
+<table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
         <tr>
             <th class="빈칸" style="width: 100px;">&nbsp;</th>
@@ -14,7 +14,7 @@
         <tr>
             <td class="1주차" style="width: 100px;"><b>1주차 Git/Github</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
-            <td class="Learned" style="width: 200px; heigth: 150px;" align="left">
+            <td class="Learned" style="width: 200px;" align="left">
 
 [✏️Git / Github](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
             </td>
@@ -22,7 +22,7 @@
             <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
         </tr>
         <tr>
-            <td style="width: 100px;">&nbsp;</td>
+            <td class="1주차" style="width: 100px;">&nbsp;</td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
             <td class="Learned" style="width: 200px;" align="left">
             
