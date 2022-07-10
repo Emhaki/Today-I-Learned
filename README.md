@@ -26,10 +26,10 @@
             <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
             <td class="Learned" style="width: 200px;" align="left">
             
-[✏️특강](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md)
+[✏️Job Search](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Job Search</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;What kind of developer will I be?</td>
         </tr>
         <tr>
             <td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
