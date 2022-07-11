@@ -39,7 +39,7 @@
 [✏️Basic Python](2%EC%A3%BC%EC%B0%A8%202022.07/07.11.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Grammar</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;Code Grammar</td>
         </tr>
         <tr>
             <td class="2주차" style="width: 100px;"></td>
