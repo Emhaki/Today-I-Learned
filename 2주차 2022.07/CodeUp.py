@@ -1,22 +1,21 @@
-# 1. 점심 메뉴가 담긴 리스트를 만들고
-# 첫번째 메뉴를 출력
+# 1. 문자(character)는
+# 0~9, a~z, A~Z, !, @, #, {, [, <, ... 과 같이
+# 길이가 1인 기호라고 할 수 있다.
 
-menu = ["짜장면", "김치찌개", "막국수", "닭가슴살"]
+# 변수에 문자 1개를 저장한 후
+# 변수에 저장되어 있는 문자를 그대로 출력해보자.
 
-print(menu[1])
+c = input()
+print(c)
 
-# 2. 입력받은 숫자에 5를 더한 결과를 출력하세요.
-# input은 String 형태로 저장
-# int를 통해 변환
+# 2. 공백을 두고 입력된정수(integer) 2개를 입력받아 줄을 바꿔 출력해보자.
 
-num = int(input())
-print(num + 5)
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a)
+print(b)
 
-# 3. 문자열을 특정 단위로 쪼개기
-
-a = '1 2 3'
-print(a.split())
-# 쪼갠 문자열 더하기
-numbers = a.split()
-result = int(numbers[0]) + int(numbers[1]) + int(numbers[2])
-print(result)
+# 3. 24시간 시:분 형식으로 시간이 입력될 때, 그대로 출력하는 연습을 해보자.
+a, b = input().split(':')
+print(a, b, sep=':')
