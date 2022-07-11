@@ -34,7 +34,10 @@
         <tr>
             <td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.11</code></td>
-            <td class="Learned" style="width: 200px;" align="left">&nbsp;</td>
+             <td class="Learned" style="width: 200px;" align="left">
+            
+[✏️Basic Python](2%EC%A3%BC%EC%B0%A8%202022.07/07.11.md)
+            </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;</td>
         </tr>
