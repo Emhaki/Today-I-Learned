@@ -14,3 +14,12 @@ for i in a:
 
 # word2 = ['b', 'a', 'n', 'a', 'n', 'a']
 print(word2.index('a'))
+
+word = input()
+word = str(word)
+for idx in range(len(word)):
+    if word[idx] == 'a':
+        print(idx)
+        break
+else:
+    print(-1)

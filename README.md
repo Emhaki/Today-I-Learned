@@ -71,5 +71,15 @@
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;Methods, list, String, Dictionary</td>
         </tr>
+        <tr>
+            <td class="2주차" style="width: 100px;"></td>
+            <td class="date" style="width: 100px;" align="center"><code>22.07.15</code></td>
+            <td class="Learned" style="width: 200px;" align="left">
+            
+[✏️Python JASON](2%EC%A3%BC%EC%B0%A8%202022.07/07.15.md)
+            </td>
+            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;import JSON, with open, dumps, loads</td>
+        </tr>
     </tbody>
 </table>

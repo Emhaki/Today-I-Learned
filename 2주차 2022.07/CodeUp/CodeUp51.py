@@ -1,8 +1,8 @@
 # 정수(1 ~ 100) 1개가 입력되었을 때 카운트다운을 출력해보자.
 
-n = input()
-n = int(n)
+a = input()
+a = int(a)
 
-while n != 0:
-    n = n - 1
-    print(n)
+while a != 0:
+    print(a)
+    a = a - 1
