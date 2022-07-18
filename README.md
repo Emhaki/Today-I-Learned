@@ -1,4 +1,4 @@
-# 😤기록을 통한 학습
+# 😤마인드 가꾸기
 
 <table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
@@ -80,6 +80,16 @@
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;import JSON, with open, dumps, loads</td>
+        </tr>
+        <tr>
+            <td class="3주차" style="width: 100px;"><b>3주차 Python</b></td>
+            <td class="date" style="width: 100px;" align="center"><code>22.07.18</code></td>
+             <td class="Learned" style="width: 200px;" align="left">
+            
+[✏️Error Debugging](2%EC%A3%BC%EC%B0%A8%202022.07/07.18.md)
+            </td>
+            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;debugging</td>
         </tr>
     </tbody>
 </table>
