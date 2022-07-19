@@ -86,10 +86,20 @@
             <td class="date" style="width: 100px;" align="center"><code>22.07.18</code></td>
              <td class="Learned" style="width: 200px;" align="left">
             
-[✏️Error Debugging](2%EC%A3%BC%EC%B0%A8%202022.07/07.18.md)
+[✏️Error Debugging](3%EC%A3%BC%EC%B0%A8%202022.07/07.18.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;debugging</td>
+        </tr>
+        <tr>
+            <td class="3주차" style="width: 100px;"></td>
+            <td class="date" style="width: 100px;" align="center"><code>22.07.19</code></td>
+             <td class="Learned" style="width: 200px;" align="left">
+            
+[✏️Python OOP](3%EC%A3%BC%EC%B0%A8%202022.07/07.19.md)
+            </td>
+            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+            <td class="Important" style="width: 100px;" align="center">&nbsp;OOP, ClASS</td>
         </tr>
     </tbody>
 </table>
