@@ -1,3 +1,4 @@
+# 2029. 몫과 나머지 출력하기 D1
 # 2개의 수 a, b를 입력 받아, a를 b로 나눈 몫과 나머지를 출력하는 프로그램을 작성하라.
 
 # [제약 사항]
@@ -29,11 +30,10 @@
 # #2 2 3
 # #3 24 9
 
-T = input()
-T = int(T)
+t = int(input())
 
-for i in range(1, T+1):
+for i in range(1, t + 1):
     a, b = map(int, input().split())
-    C = (a // b)
-    D = (a % b)
-    print(C, D, end=" ")
+    print("#%d" % i, end=" ")
+    print(a // b, end=" ")
+    print(a % b)
