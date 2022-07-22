@@ -113,7 +113,7 @@
         </tr>
         <tr>
             <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.20</code></td>
+            <td class="date" style="width: 100px;" align="center"><code>22.07.21</code></td>
              <td class="Learned" style="width: 200px;" align="left">
             
 [✏️Python Module](3%EC%A3%BC%EC%B0%A8%202022.07/07.21.md)
@@ -123,10 +123,10 @@
         </tr>
          <tr>
             <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.20</code></td>
+            <td class="date" style="width: 100px;" align="center"><code>22.07.22</code></td>
              <td class="Learned" style="width: 200px;" align="left">
             
-[✏️Python API](3%EC%A3%BC%EC%B0%A8%202022.07/07.22.md)
+[✏️Python API](./3%EC%A3%BC%EC%B0%A8%202022.07/07.22.md)
             </td>
             <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
             <td class="Important" style="width: 100px;" align="center">&nbsp;API</td>
