@@ -144,7 +144,7 @@
 <td class="Important" style="width: 100px;" align="center">&nbsp;API</td>
 </tr>
 <tr>
-<td class="3주차" style="width: 100px;"><b>4주차 알고리즘</b></td>
+<td class="3주차" style="width: 100px;"><b>4주차 Algorithm</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.25</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
