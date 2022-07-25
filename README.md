@@ -17,119 +17,143 @@
             <td class="Learned" style="width: 200px;" align="left">
 
 [✏️Git / Github](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.07.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
-        </tr>
-        <tr>
-            <td class="1주차" style="width: 100px;">&nbsp;</td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
-            <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
+</tr>
+<tr>
+<td class="1주차" style="width: 100px;">&nbsp;</td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.08</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Job Search](1%EC%A3%BC%EC%B0%A8%202022.07/TIL%2007.08.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;What kind of developer will I be?</td>
-        </tr>
-        <tr>
-            <td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.11</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;What kind of developer will I be?</td>
+</tr>
+<tr>
+<td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.11</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Basic Python](2%EC%A3%BC%EC%B0%A8%202022.07/07.11.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Code Grammar</td>
-        </tr>
-        <tr>
-            <td class="2주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.12</code></td>
-            <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Code Grammar</td>
+</tr>
+<tr>
+<td class="2주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.12</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Jump To Python](2%EC%A3%BC%EC%B0%A8%202022.07/07.12.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;for, while, continue, break</td>
-        </tr>
-         <tr>
-            <td class="2주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.13</code></td>
-            <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;for, while, continue, break</td>
+</tr>
+<tr>
+<td class="2주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.13</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python Function](2%EC%A3%BC%EC%B0%A8%202022.07/07.13.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Function</td>
-        </tr>
-         <tr>
-            <td class="2주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.14</code></td>
-            <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Function</td>
+</tr>
+<tr>
+<td class="2주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.14</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python Dictionary](2%EC%A3%BC%EC%B0%A8%202022.07/07.14.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Methods, list, String, Dictionary</td>
-        </tr>
-        <tr>
-            <td class="2주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.15</code></td>
-            <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Methods, list, String, Dictionary</td>
+</tr>
+<tr>
+<td class="2주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.15</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python JASON](2%EC%A3%BC%EC%B0%A8%202022.07/07.15.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;import JSON, with open, dumps, loads</td>
-        </tr>
-        <tr>
-            <td class="3주차" style="width: 100px;"><b>3주차 Python</b></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.18</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;import JSON, with open, dumps, loads</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"><b>3주차 Python</b></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.18</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Error Debugging](3%EC%A3%BC%EC%B0%A8%202022.07/07.18.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;debugging</td>
-        </tr>
-        <tr>
-            <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.19</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;debugging</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.19</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python OOP](3%EC%A3%BC%EC%B0%A8%202022.07/07.19.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;OOP, ClASS</td>
-        </tr>
-         <tr>
-            <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.20</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;OOP, ClASS</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.20</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python SW Academy](3%EC%A3%BC%EC%B0%A8%202022.07/07.20.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;CodingTest</td>
-        </tr>
-        <tr>
-            <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.21</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;CodingTest</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.21</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python Module](3%EC%A3%BC%EC%B0%A8%202022.07/07.21.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;Module</td>
-        </tr>
-         <tr>
-            <td class="3주차" style="width: 100px;"></td>
-            <td class="date" style="width: 100px;" align="center"><code>22.07.22</code></td>
-             <td class="Learned" style="width: 200px;" align="left">
-            
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Module</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.22</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
 [✏️Python API](./3%EC%A3%BC%EC%B0%A8%202022.07/07.22.md)
-            </td>
-            <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-            <td class="Important" style="width: 100px;" align="center">&nbsp;API</td>
-        </tr>
-    </tbody>
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;API</td>
+</tr>
+<tr>
+<td class="3주차" style="width: 100px;"><b>4주차 알고리즘</b></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.25</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Algorithm](4%EC%A3%BC%EC%B0%A8%202022.08/07.25.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm, Coding test</td>
+</tr>
+</tbody>
+
 </table>
