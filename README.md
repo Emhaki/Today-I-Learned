@@ -7,7 +7,7 @@
             <th class="빈칸" style="width: 100px;" align="center">&nbsp;</th>
             <th class="Learned" style="width: 200px;" align="center">💻Today I Learned</th>
             <th class="Record" style="width: 100px;" align="center">📝Record</th>
-            <th class="Important" style="width: 100px;" align="center">🤓Important</th>
+            <th class="Important" style="width: 100px;" align="center">🤓Learned About</th>
         </tr>
     </thead>
     <tbody>
@@ -154,6 +154,13 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm, Code Review</td>
 </tr>
-</tbody>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.26</code></td>
+<td class="Learned" style="width: 200px;" align="left">
 
-</table>
+[✏️Time Complexity](/4%EC%A3%BC%EC%B0%A8%202022.08/07.26.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Time Complexity</td>
+</tr>
