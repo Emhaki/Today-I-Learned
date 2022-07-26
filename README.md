@@ -148,11 +148,11 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.25</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm](4%EC%A3%BC%EC%B0%A8%202022.08/07.25.md)
+[✏️Algorithm / Code Review](4%EC%A3%BC%EC%B0%A8%202022.08/07.25.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm, Coding test</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm, Code Review</td>
 </tr>
 </tbody>
 
