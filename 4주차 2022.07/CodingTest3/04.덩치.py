@@ -11,6 +11,7 @@ for i in range(1, N+1):
     # 몸무계와 키를 묶어서 append 해줌
     data.append((x, y))
 
+# 한명씩 카운트 값을 winner_list.append에 추가
 for i in range(N):
     count = 0
     for j in range(N):
