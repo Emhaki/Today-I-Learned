@@ -1,4 +1,6 @@
-
-N = int(input())
-for i in range(N):
-    print("* "*N if i % 2 == 0 else " *"*N)
+print("""         ,r'"7
+r`-_   ,'  ,/
+ \. ". L_r'
+   `~\/
+      |
+      |""")

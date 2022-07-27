@@ -6,18 +6,32 @@
 
 # 가장 큰 오르막길을 구하는 프로그램을 작성하시오.
 
-T = int(input())
-a_list = list(map(int, (input().split())))
-a = 0
-b_list = []
 
-# a_list = [1, 2, 1, 4, 6]
-for i in range(T-1):
-    if a_list[i] < a_list[i+1]:
-        a += a_list[i+1] - a_list[i]
+# N : 리스트 길이
+N = int(input())
+
+# 높이 리스트 입력
+list_ = list(map(int, input().split()))
+
+# 누적합 저장 변수
+sum_ = 0
+
+# 누적합들을 저장할 리스트
+sum_list = []
+
+# 오르막길을 찾기 위해서 인덱싱
+for i in range(1, len(list_)):
+    # 오르막길은 현재 값 > 이전 값
+    if list_[i] > list_[i-1]:
+        # 오르막길의 전체 길이는 부분 오르막길 길이의 누적합
+        sum_ = sum_ + list_[i] - list_[i-1]  # 누적합
+
+        # 오르막길일 때마다 누적합들 저장
+        sum_list.append(sum_)
+
+    # 오르막길이 아니면
     else:
-        b_list.append(a)
-        a = 0
+        sum_ = 0
 
-b_list.append(a)
-print(max(b_list))
+# sum_list = [1, 3, 5]
+print(max(sum_list))

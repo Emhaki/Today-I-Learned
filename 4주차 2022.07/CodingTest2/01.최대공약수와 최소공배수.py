@@ -32,3 +32,5 @@ for i in (a_result_list):
 # (a*b) 최대공배수로 나눈 값이 최소공약수
 print(max(c_result_list))
 print(a*b//max(c_result_list))
+# 6
+# 72
