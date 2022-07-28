@@ -148,7 +148,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.25</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm / Code Review](4%EC%A3%BC%EC%B0%A8%202022.08/07.25.md)
+[✏️Algorithm / Code Review](./4%EC%A3%BC%EC%B0%A8%202022.07/07.25.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -158,7 +158,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.26</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Time Complexity](/4%EC%A3%BC%EC%B0%A8%202022.08/07.26.md)
+[✏️Time Complexity](./4%EC%A3%BC%EC%B0%A8%202022.07/07.26.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -168,7 +168,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.27</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm / Code Review](/4%EC%A3%BC%EC%B0%A8%202022.08/07.27.md)
+[✏️Algorithm / Code Review](./4%EC%A3%BC%EC%B0%A8%202022.07/07.27.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -178,7 +178,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.28</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm / Code Reveiw](/4%EC%A3%BC%EC%B0%A8%202022.08/07.28.md)
+[✏️Algorithm / Code Reveiw](./4%EC%A3%BC%EC%B0%A8%202022.07/07.28.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
