@@ -152,7 +152,7 @@
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm, Code Review</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
 </tr>
 <td class="3주차" style="width: 100px;"></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.26</code></td>
@@ -168,9 +168,19 @@
 <td class="date" style="width: 100px;" align="center"><code>22.07.27</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm](/4%EC%A3%BC%EC%B0%A8%202022.08/07.27.md)
+[✏️Algorithm / Code Review](/4%EC%A3%BC%EC%B0%A8%202022.08/07.27.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - backjoon</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
+</tr>
+<td class="3주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.07.28</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Algorithm / Code Reveiw](/4%EC%A3%BC%EC%B0%A8%202022.08/07.28.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
 </tr>
