@@ -1,29 +1,36 @@
-# 사람의 수 입력
-N = int(input())
+# 접근방법
+# 입력값들을 리스트로 저장
+# 빈자리가 있을 경우에는 임시 값을 넣어줌
+# 각 리스트에 담긴 인덱스들을 합함
+# 임시값을 제거해줌
 
-list_ = []
+# 입력값들을 받음
+A = list(map(str, input()))
+B = list(map(str, input()))
+C = list(map(str, input()))
+D = list(map(str, input()))
+E = list(map(str, input()))
+result = ""
+result_list = []
 
-# 각 사람의 몸무게와 키 입력
-for i in range(N):
-    weight, height = list(map(int, input().split()))
-    # 리스트에 몸무게와 키를 저장
-    list_.append((weight, height))
+# 문자열의 길이만큼 for문 설정
+# 길이가 짧은 경우 임시값 T를 넣어줌
+for i in range(15):
+    A.append("T")
+    B.append("T")
+    C.append("T")
+    D.append("T")
+    E.append("T")
 
-ranks = [0] * N
+# 각 인덱스의 값들을 result값에 더함
+for j in range(0, 20):
+    result += (A[j]+B[j]+C[j]+D[j]+E[j])
 
-# 모든 사람을 비교하기위한 이중반복문
-for a in range(N):
-    # 기준이 되는 사람
-    A = list_[a]
-    for b in range(N):
-        # 비교가 되는 사람
-        B = list_[b]
+# result값에 T값이 없는 경우에만 result_list에 append
+for k in result:
+    if k != "T":
+        result_list.append(k)
 
-        # A가 B보다 덩치가 큰지 조건문이 필요
-        # A가 B보다 덩치가 크다.
-        if A[0] > B[0] and A[1] > B[1]:
-            # B보다 덩치가 큰 사람이 한 명 더 있다. +1
-            ranks[b] += 1
-
-for rank in ranks:
-    print(rank+1, end=" ")
+# q값을 일렬로 출력
+for q in result_list:
+    print(q, end="")
