@@ -16,5 +16,6 @@ for j in word:
     if j not in ben_word:
         result_word.append(j)
 
+# result_word를 for문을 통해 일렬로 출력
 for i in result_word:
     print(i, end="")

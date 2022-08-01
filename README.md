@@ -154,7 +154,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
 </tr>
-<td class="3주차" style="width: 100px;"></td>
+<td class="4주차" style="width: 100px;"></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.26</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -164,7 +164,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Time Complexity</td>
 </tr>
-<td class="3주차" style="width: 100px;"></td>
+<td class="4주차" style="width: 100px;"></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.27</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -174,7 +174,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
 </tr>
-<td class="3주차" style="width: 100px;"></td>
+<td class="4주차" style="width: 100px;"></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.28</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -184,7 +184,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Reveiw</td>
 </tr>
-<td class="3주차" style="width: 100px;"></td>
+<td class="4주차" style="width: 100px;"></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.29</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -193,4 +193,14 @@
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Test</td>
+</tr>
+<td class="1주차" style="width: 100px;"><b>1주차 Data Structure</b></td>
+<td class="date" style="width: 100px;" align="center"><code>22.08.01</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.01.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
 </tr>
