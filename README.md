@@ -1,4 +1,4 @@
-# 😤마인드 가꾸기
+# 😤깨지고 부서지고 일어나라
 
 <table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
@@ -199,6 +199,16 @@
 <td class="Learned" style="width: 200px;" align="left">
 
 [✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.01.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
+</tr>
+<td class="1주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.08.02</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.02.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
