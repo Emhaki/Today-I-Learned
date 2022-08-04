@@ -1,6 +1,7 @@
-N = input()
+def solution(param0):
+    answer = len(param0)
 
-if type(N) == str:
-    print(0)
-else:
-    print(1)
+    return answer
+
+
+print(solution(['apple', 'banana', 'kakao', 'naver', 'apache'], "a"))
