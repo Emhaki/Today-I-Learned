@@ -194,11 +194,11 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Test</td>
 </tr>
-<td class="1주차" style="width: 100px;"><b>1주차 Data Structure</b></td>
+<td class="1주차" style="width: 100px;"><b>1주차 Algorithm</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.08.01</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.01.md)
+[✏️Algorithm](./2022.08%201%EC%A3%BC%EC%B0%A8/08.01.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -208,7 +208,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.08.02</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.02.md)
+[✏️Algorithm](./2022.08%201%EC%A3%BC%EC%B0%A8/08.02.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -218,7 +218,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.08.03</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.03.md)
+[✏️Algorithm](./2022.08%201%EC%A3%BC%EC%B0%A8/08.03.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -228,7 +228,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.08.04</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Data Structure](./2022.08%201%EC%A3%BC%EC%B0%A8/08.04.md)
+[✏️Algorithm](./2022.08%201%EC%A3%BC%EC%B0%A8/08.04.md)
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -238,7 +238,7 @@
 <td class="date" style="width: 100px;" align="center"><code>22.08.04</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Data Structure]()
+[✏️Algorithm]()
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
@@ -252,5 +252,5 @@
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Delta Search</td>
 </tr>
