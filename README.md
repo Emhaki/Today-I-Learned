@@ -234,3 +234,13 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
 </tr>
+<td class="1주차" style="width: 100px;"></td>
+<td class="date" style="width: 100px;" align="center"><code>22.08.04</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Data Structure]()
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
+</tr>

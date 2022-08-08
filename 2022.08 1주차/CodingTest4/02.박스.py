@@ -18,23 +18,22 @@ for _ in range(1):
 #  ['0', '1', '0', '0'],
 #  ['1', '0', '1', '0']]
 
-# 1을 만나고 나서부터 0의 갯수
-    count = 0
-for i in range(m):
-    for j in range(n):
-        if box_list[m-1][n-1] == '1':
-            if box_list[i][j] == '1':
-                for k in range(n):
-                    if box_list[i][k] != box_list[0][0] and box_list[i][k] == '1':
-                        count += 1
+for x in range():
 
-        if box_list[m-1][n-1] == '0':
-            if box_list[i][j] == '1':
-                for k in range(n):
-                    if box_list[i][k] == '0':
-                        count += 1
+    for y in list(range())[::-1]:
 
-        elif box_list[i][j] == '0':
-            break
+        if 박스_리스트[y][x] == 박스:
 
-print(count)
+            while True:
+
+                if y+1 == 행_개수:
+                    break
+                if 박스_리스트[y+1][x] ==박스:
+                    break
+                 
+                박스_리스트[y][x] = 빈공간
+                박스_리스트[y+1][x] = 박스
+                y += 1
+                이동거리 += 1
+
+print(이동거리)
