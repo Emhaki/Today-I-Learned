@@ -244,3 +244,13 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
 </tr>
+<td class="1주차" style="width: 100px;"><b>2주차 Algorithm</b></td>
+<td class="date" style="width: 100px;" align="center"><code>22.08.08</code></td>
+<td class="Learned" style="width: 200px;" align="left">
+
+[✏️Algorithm](./2022.08%202%EC%A3%BC%EC%B0%A8/08.08.md)
+
+</td>
+<td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+<td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm</td>
+</tr>
