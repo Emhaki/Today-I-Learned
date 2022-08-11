@@ -1,11 +1,18 @@
 
-import sys
-sys.stdin = open('input.txt', "r", encoding='UTF-8')
+def solution(field, n):
 
-chess_list = [1, 1, 2, 2, 2, 8]
-input_list = list(map(int, input().split()))
-result_list = []
-for i in range(len(chess_list)):
-    result_list.append((chess_list[i] - input_list[i]))
+    for r in range(len(field)):
+        for c in range(len(field)):
+            if r+1 == n or c+1 == n:
+                break
+            w = field[r][c]
+            x = field[r][c+1]
+            y = field[r+1][c]
+            z = field[r+1][c+1]
 
-print(*result_list)
+            temp = w+x+y+z
+            max_temp = 0
+
+            if temp > max_temp:
+                max_tamp = temp
+    return max_tamp
