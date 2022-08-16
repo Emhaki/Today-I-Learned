@@ -13,15 +13,23 @@ w, h = map(int, input().split())  # w는 행 h는 열
 matrix = []
 for _ in range(w):  # 행
     matrix.append(input().split())  # 열
-# matrix
-# [[0, 0, 0, 0, 0],
-#  [0, 0, 0, 0, 0],
-#  [0, 0, 0, 0, 0],
-#  [0, 0, 0, 0, 0],
-#  [0, 0, 0, 0, 0]]
 
-# for r in range(w):
-#     for c in range(h):
-#         if r+1 == w or c+1 == h:
-#             break
+# [['1', '0', '1', '0', '1'],
+#  ['0', '0', '0', '0', '0'],
+#  ['1', '0', '1', '0', '1'],
+#  ['0', '0', '0', '0', '0'],
+#  ['1', '0', '1', '0', '1']]
+
+for r in range(w):
+    for c in range(h):
+        if r+1 == w or c+1 == h:
+            break
+        w = matrix[r][c]
+        x = matrix[r][c+1]
+        y = matrix[r+1][c]
+        z = matrix[r+1][c+1]
+
+        temp = w+x+y+z
+
+
 pprint(matrix)

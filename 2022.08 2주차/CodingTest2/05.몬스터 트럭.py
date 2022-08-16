@@ -11,7 +11,10 @@ R, C = map(int, input().split())
 parking_lot = []
 for _ in range(R):
     parking_lot.append(input())
-# parking_lot = ['#..#', '..X.', '..X.', '#XX#']
+# parking_lot = ['#..#',
+#                '..X.',
+#                '..X.',
+#                '#XX#']
 
 crush_zero = 0
 crush_one = 0
