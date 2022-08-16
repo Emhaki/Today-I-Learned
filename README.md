@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         <tr>
-            <td class="1주차" style="width: 100px;"><b>1주차 Git/Github</b></td>
+            <td class="1주차" style="width: 100px;"><b>7월 1주차 Git/Github</b></td>
             <td class="date" style="width: 100px;" align="center"><code>22.07.07</code></td>
             <td class="Learned" style="width: 200px;" align="left">
 
@@ -34,7 +34,7 @@
 <td class="Important" style="width: 100px;" align="center">&nbsp;What kind of developer will I be?</td>
 </tr>
 <tr>
-<td class="2주차" style="width: 100px;"><b>2주차 Python</b></td>
+<td class="2주차" style="width: 100px;"><b>7월 2주차 Python</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.11</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -89,7 +89,7 @@
 <td class="Important" style="width: 100px;" align="center">&nbsp;import JSON, with open, dumps, loads</td>
 </tr>
 <tr>
-<td class="3주차" style="width: 100px;"><b>3주차 Python</b></td>
+<td class="3주차" style="width: 100px;"><b>7월 3주차 Python</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.18</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -144,7 +144,7 @@
 <td class="Important" style="width: 100px;" align="center">&nbsp;API</td>
 </tr>
 <tr>
-<td class="3주차" style="width: 100px;"><b>4주차 Algorithm</b></td>
+<td class="3주차" style="width: 100px;"><b>7월 4주차 Algorithm</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.07.25</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -194,7 +194,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Algorithm - Test</td>
 </tr>
-<td class="1주차" style="width: 100px;"><b>1주차 Algorithm</b></td>
+<td class="1주차" style="width: 100px;"><b>8월 1주차 Algorithm</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.08.01</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -234,7 +234,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;Data Structure</td>
 </tr>
-<td class="1주차" style="width: 100px;"><b>2주차 Algorithm</b></td>
+<td class="1주차" style="width: 100px;"><b>8월 2주차 Algorithm</b></td>
 <td class="date" style="width: 100px;" align="center"><code>22.08.08</code></td>
 <td class="Learned" style="width: 200px;" align="left">
 
@@ -274,7 +274,7 @@
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
 <td class="Important" style="width: 100px;" align="center">&nbsp;DFS, BFS</td>
 </tr>
-<td class="3주차" style="width: 100px;"><b>3주차 Data Base</b></td>
+<td class="3주차" style="width: 100px;"><b>8월 3주차 Data Base</b></td>
     <td class="date" style="width: 100px;" align="center"><code>22.08.16</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
