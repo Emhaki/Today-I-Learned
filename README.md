@@ -278,7 +278,7 @@
     <td class="date" style="width: 100px;" align="center"><code>22.08.16</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Algorithm](./2022.08%203%EC%A3%BC%EC%B0%A8/08.16.md)
+[✏️SQL](./2022.08%203%EC%A3%BC%EC%B0%A8/08.16.md)
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
