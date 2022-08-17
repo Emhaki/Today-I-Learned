@@ -278,9 +278,18 @@
     <td class="date" style="width: 100px;" align="center"><code>22.08.16</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
-[✏️SQL](./2022.08%203%EC%A3%BC%EC%B0%A8/08.16.md)
+[✏️SQLite3](./2022.08%203%EC%A3%BC%EC%B0%A8/08.16.md)
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;CRUD(Create Read Update Delete)</td>
+</tr>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.17</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️SQLite3](./2022.08%203%EC%A3%BC%EC%B0%A8/08.17.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;WHERE, ORDER BY</td>
 </tr>
