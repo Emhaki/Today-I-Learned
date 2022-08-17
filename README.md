@@ -284,6 +284,7 @@
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;CRUD(Create Read Update Delete)</td>
 </tr>
+<td class="3주차" style="width: 100px;"></td>
     <td class="date" style="width: 100px;" align="center"><code>22.08.17</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
