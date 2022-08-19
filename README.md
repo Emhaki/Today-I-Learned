@@ -304,3 +304,13 @@
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;GROUP BY, ALTER TABLE, HAVING</td>
 </tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.18</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️SQLite3](./2022.08%203%EC%A3%BC%EC%B0%A8/08.19.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;CASE, WHEN</td>
+</tr>
