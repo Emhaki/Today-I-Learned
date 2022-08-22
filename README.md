@@ -1,4 +1,4 @@
-# 😤깨지고 부서지고 일어나라
+# 😤문제해결 개발자
 
 <table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
@@ -20,7 +20,7 @@
 
 </td>
 <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-<td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Add, Commit, Push, Pull, Merge</td>
 </tr>
 <tr>
 <td class="1주차" style="width: 100px;">&nbsp;</td>
@@ -313,4 +313,15 @@
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;CASE, WHEN</td>
+</tr>
+<td class="3주차" style="width: 100px;"><b>8월 4주차 Data Base</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.22</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️SQLite3](./2022.08%204%EC%A3%BC%EC%B0%A8/08.22.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;INNER JOIN,
+OUTER JOIN, CROSS JOIN</td>
 </tr>
