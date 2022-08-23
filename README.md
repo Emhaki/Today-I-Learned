@@ -325,3 +325,13 @@
     <td class="Important" style="width: 100px;" align="center">&nbsp;INNER JOIN,
 OUTER JOIN, CROSS JOIN</td>
 </tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.23</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Modeling](./2022.08%204%EC%A3%BC%EC%B0%A8/08.23.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;ERD</td>
+</tr>
