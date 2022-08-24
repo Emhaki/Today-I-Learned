@@ -336,7 +336,7 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;ERD</td>
 </tr>
 <td class="3주차" style="width: 100px;"></td>
-    <td class="date" style="width: 100px;" align="center"><code>22.08.23</code></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.24</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
 [✏️ORM](./2022.08%204%EC%A3%BC%EC%B0%A8/08.24.md)
