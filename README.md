@@ -343,5 +343,5 @@ OUTER JOIN, CROSS JOIN</td>
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-    <td class="Important" style="width: 100px;" align="center">&nbsp;Create, Update, Delete, Read </td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Create, Read, Update, Delete </td>
 </tr>
