@@ -365,3 +365,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;CodingTest </td>
 </tr>
+<td class="3주차" style="width: 100px;"><b>8월 5주차 Web basic</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.29</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️HTML/CSS](2022.08%205%EC%A3%BC%EC%B0%A8/08.29.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;HTML/CSS</td>
+</tr>
