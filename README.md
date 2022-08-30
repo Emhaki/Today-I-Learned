@@ -375,3 +375,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;HTML/CSS</td>
 </tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.08.30</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️CSS](2022.08%205%EC%A3%BC%EC%B0%A8/08.30.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp; CSS </td>
+</tr>
