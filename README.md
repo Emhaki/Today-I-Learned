@@ -406,7 +406,7 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp; Flex Practice </td>
 </tr>
 <td class="3주차" style="width: 100px;"></td>
-    <td class="date" style="width: 100px;" align="center"><code>22.09.01</code></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.02</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
 [✏️Pair Programming](/2022.08%205%EC%A3%BC%EC%B0%A8/09.02.md)
