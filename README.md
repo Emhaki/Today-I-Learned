@@ -423,5 +423,15 @@ OUTER JOIN, CROSS JOIN</td>
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
-    <td class="Important" style="width: 100px;" align="center">&nbsp;✏️Bootstrap</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Bootstrap</td>
+</tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.06</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Bootstrap](/2022.09%201%EC%A3%BC%EC%B0%A8/09.06.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp; Bootstrap </td>
 </tr>
