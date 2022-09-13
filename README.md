@@ -445,3 +445,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp; Bootstrap Grid System</td>
 </tr>
+<td class="2주차" style="width: 100px;"><b>9월 2주차 Web</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.13</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Wep Project](./2022.09%202%EC%A3%BC%EC%B0%A8/09.13.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Pair Programming</td>
+</tr>
