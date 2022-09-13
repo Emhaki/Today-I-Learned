@@ -2,6 +2,9 @@ import sys
 sys.stdin = open("input.txt")
 
 N = int(input())
-A, B = map(int, input().split())
+A = set(map(int, input().split()))
+M = int(input())
+arr = list(map(int, input().split()))
 
-if N > A or N > B:
+for num in arr:
+    print(1) if num in A else print(0)
