@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <title>세상의 모든 영화 The Movie</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid ">
+          <img src="./logo.png" alt="" width="100spx">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item" style="margin-left: 10px;">
+                <a class="nav-link active text-white opacity-50" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="./community.html">Community</a>
+              </li>
+              <li class="nav-item">
+                <button style="text-decoration-line: none;" type="button" class="btn btn-link text-white opacity-50" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Login
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+    
+     <form>
+        <fieldset>
+          <legend class="text-center mt-3 ">리뷰 작성하기</legend>
+          
+            
+           
+           
+         
+          <div class="mb-3">
+            <label for="disabledSelect" class="form-label"></label>
+            <select id="disabledSelect" class="form-select">
+              <option value="1">영화 선택하기</option>
+              <option value="2">쇼생크 탈출</option>
+              <option value="3">다크나이트 라이즈</option>
+              <option value="4">그랜드 부다페스트 호텔</option>
+              <option value="5">죽은 시인의 사회</option>
+              <option value="6">her</option>
+              <option value="7">위대한 쇼맨</option>
+              
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">리뷰 제목</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="리뷰를 작성해주세요.">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">리뷰 내용</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" style="height: 100px;">
+          </div>
+         
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+     </form>
+
+    
+    </div>
+
+    <style>
+      *{font-family: 'Jua', sans-serif;
+             font-family: 'Noto Sans KR', sans-serif !important;
+         }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

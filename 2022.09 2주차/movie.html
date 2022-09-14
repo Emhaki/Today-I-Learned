@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<link rel="icon" href="./favicon.svg">
+  <title>세상의 모든 영화 The Movie</title>
+</head>
+
+
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid ">
+      <img src="./logo.png" alt="" width="100spx">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item" style="margin-left: 10px;">
+            <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white opacity-50" href="./community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <button style="text-decoration-line: none;" type="button" class="btn btn-link text-white opacity-50" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+   </nav>
+
+  
+<div class="main container">
+    <div class="upper main">
+        <div class="row">
+            <div class="main poster mt-5 col-2 shadow-sm p-0">
+                <img src="./movie1.jpg " alt="" class="rounded" style="width:100%;">
+            </div>
+            <div class="title col-10 mt-5 px-4">
+                <h2 class="fw-bold">쇼생크 탈출</h2>
+                <h7 class="fw-bold">The Shawshank Redemption, 1994</h7>
+                <div class="row">
+                    <!-- 왼쪽부분 개봉부분-->
+                    <div class="middle title mt-3 col-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">개봉</h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>1995.02.04 </h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">재개봉 </h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>2016.02.24 </h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">장르 </h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>드라마 </h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">국가 </h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>미국 </h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">등급 </h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>15세이상관람가 </h7>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h7 style="color: #98989C">러닝타임 </h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>133분, 142분(재개봉) </h7>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 오른쪽 부분 평점부터-->
+                    <div class="middle title mt-3 col-4">
+                        <div class="row">
+                            <div class="col-3">
+                                <h7 style="color: #98989C">평점</h7>
+                            </div>
+                            <div class="col-8">
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt="">9.6</h7>
+                            </div>
+                            <div class="col-3">
+                                <h7 style="color: #98989C">누적관객</h7>
+                            </div>
+                            <div class="col-8">
+                                <h7>11,413명</h7>
+                            </div>
+                            <div class="col-3">
+                                <div style="height: 24px;"></div>
+                            </div>
+                            <div class="col-8">
+                                <div style="height: 24px;"></div>
+                            </div>
+                            </div>
+                            <div class="col-8">
+                                <h7 style="color: #98989C">영화정보</h7>
+                                <img src="./2-circle.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button 부분 -->
+                    <div class="mt-4">
+                        <button type="button" class="btn btn-light border-secondary border-opacity-50 fw-bold" style="padding: 7px 60px 7px 60px;">
+                            <img style="width: 25px; border-radius: 20%;" src="https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/7EyF/image/vnFpKYuwybemYgBHbpyIJtbB1zQ.jpg" alt=""> 왓챠
+                        </button>
+                        <button type="button" class="btn btn-light border-secondary border-opacity-50 fw-bold" style="padding: 7px 60px 7px 60px;">
+                            <img style="width: 25px; border-radius: 20%;" src="https://blog.kakaocdn.net/dn/CwIQZ/btqVzSHbWvT/B9NjBtDXrCNoQmzMjosNDK/img.jpg" alt=""> 넷플릭스
+                        </button>
+                        <button type="button" class="btn btn-light border-secondary border-opacity-50 fw-bold" style="padding: 7px 60px 7px 60px;">
+                            <img style="width: 25px; border-radius: 20%;" src="https://play-lh.googleusercontent.com/AJhJZCDMSh5NBnWykaJGu-xVTyC0q68TeLSMueMXy_W1-qkPV2e4TuJkTGFjjvDjtQ" alt=""> 웨이브
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+   
+<div class="under container p-0">
+    <!-- 영화정보 -->
+   <div class="under information">
+     
+    <div class="inf title mt-5">
+      <div class="row">
+            <!-- bottom modal  -->
+    <button class="btn btn-white col-1 fw-bolder" type="button" data-bs-toggle="offcanvas" data-bs-target="#movieinfo" aria-controls="offcanvasBottom" style="margin-left:-12px">주요정보</button>
+    
+    <button class="btn btn-white col-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#director" aria-controls="offcanvasBottom">출연/제작</button>
+    
+    <button class="btn btn-white col-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#video" aria-controls="offcanvasBottom">영상/포토</button>
+    
+    <button class="btn btn-white col-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#score" aria-controls="offcanvasBottom">평점</button>
+
+      </div>
+    </div>
+    <hr>
+    <div class="main information mt-4">
+        <h7 class="fw-bold ">두려움은 너를 죄수로 가두고<br></h7>
+        <h7 class="fw-bold ">희망은 너를 자유롭게 하리라</h7>
+
+
+    </div>
+    <div>
+        <input style="margin-left: -5px;" value="더보기" onclick="if(this.parentNode.getElementsByTagName('div')[0].style.display != ''){this.parentNode.getElementsByTagName('div')[0].style.display = '';this.value = '접기';}else{this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = '더보기';}" type="button" class="btn btn-white p-1" />
+        <div style="display: none;"> 촉망 받던 은행 부지점장 ‘앤디(팀 로빈슨 分)’는 아내와 그 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범들이 수감된 이곳에서 재소자들은 짐승 취급 당하고, 혹여 간수 눈에 잘못 보였다가는 개죽음 당하기 십상이다. 처음엔 적응 못하던 ‘앤디’는 교도소 내 모든 물건을 구해주는 ‘레드(모건 프리먼 分)’와 친해지며 교도소 생활에 적응하려 하지만, 악질 재소자에게 걸려 강간까지 당한다.
+            그러던 어느 날, 간수장의 세금 면제를 도와주며 간수들의 비공식 회계사로 일하게 되고, 마침내는 소장의 검은 돈까지 관리해주게 된다. 덕분에 교도소 내 도서관을 열 수 있게 되었을 무렵, 신참내기 ‘토미(길 벨로우스 分)’로부터 ‘앤디’의 무죄를 입증할 기회를 얻지만, 노튼 소장은 ‘앤디’를 독방에 가두고 ‘토미’를 무참히 죽여버리는데... 
+         <hr>
+         제작된 지 16년이 지난 지금에도 꾸준히 사랑 받고 있는 영화. 촉망받던 은행 부지점장 앤디는 아내와 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범이 수감된 이곳에서 재소자들은 짐승 취급을 당하거나, 간수 눈에 잘못 보이면 죽음을 당할 수도 있다. 적응하지 못하던 앤디는 간수장의 세금 면제를 도와주며 비공식 회계사로 일을 하게 되고, 조금씩 희망을 찾으려 하지만 이내 좌절당하는 일이 반복된다. 앤디는 감옥 생활에 길들여져 가면서도 끝까지 희망을 놓지 않는다. 절망적인 상황 속에서 인간의 나약함과 희망에 대해 이야기하는 영화 <쇼생크 탈출>은 미국 영화 정보 사이트 IMDB에서 <대부>를 제치고 네티즌 평점 1위를 받았다.
+        (2016년 제4회 무주산골영화제)</div>
+    </div>
+  </div>  
+    <div class="casting">
+        <h4 class="fw-bold mt-5">출연진</h4>
+        <hr>
+        <div class="player">
+            <div class="d-flex flex-row justify-content-between ">
+                <div class="photo 1">
+                    <img src="https://img1.daumcdn.net/thumb/C246x358/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcfile%2F15404110ADFC72D333" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">프랭크 다라본트</h6>
+                    <h7 class="opacity-75 fw-bold">감독</h7>
+                </div>
+
+                <div class="photo 2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TimRobbinsTIFFSept2012.jpg/250px-TimRobbinsTIFFSept2012.jpg" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">팀 로빈스</h6>
+                    <h7 class="opacity-75 fw-bold">주연</h7>
+                </div>
+
+                <div class="photo 3">
+                    <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQUvs_hgFsinspQ2Zk0UqJ15JI_yGtj4Jgj37-jLiQWT8zLMP9Wvt2X4ktuhiqYqkJI" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">모건 프리먼</h6>
+                    <h7 class="opacity-75 fw-bold">주연</h7>
+                </div>
+
+                <div class="photo 4">
+                    <img src="https://w.namu.la/s/198bb1d81570cd21b89b9aaca43421e1f77f82f2f136e83a8764952adce0fb821ccae03a20c629054aa9f675e824c24d2119d6162dd31b0f7984e8937579eb41fffccd4f6b1f2572d750f4b44089907db483759cec8a6b56f1eff598ce3a092e5e8f4760a85ac6f488611a21587d1d57" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">밥 건튼</h6>
+                    <h7 class="opacity-75 fw-bold">출연</h7>
+                </div>
+
+                <div class="photo 5">
+                    <img src="https://w.namu.la/s/d27aeddaf2e06127fd94d6b5f317adb2c4389f15891fb31e6d76626d26393488b5fb2ce9664c79b326aada23804508d367c8c5817f0a7e5ebbb59d7f2bba03fc33c6339e0b5b00c64f6c601fd37893f431f0d7525f31c4bbb5f21bcd078253f6e3ba07d2040473c7ee1f32655bd5b6b4" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">윌리엄 새들러</h6>
+                    <h7 class="opacity-75 fw-bold">출연</h7>
+                </div>
+
+                <div class="photo 6">
+                    <img src="https://w.namu.la/s/f792da074d9e3b41383160113011cf8124a6eaa55bcbdb5d36f5b55cf84c663e5c0bd5abf57ef82eecbbe32c110611b2473a0e892730be97e6613fe94034e061f448c43b19cf34d79b4e877073d11a0071e9ccf95872ab3fa53c470403da54460f5e319deba87717eb893ba5d5806ae6" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">클랜시 브라운</h6>
+                    <h7 class="opacity-75 fw-bold">출연</h7>
+                </div>
+
+                <div class="photo 7">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/GilBellows08TIFF.jpg/250px-GilBellows08TIFF.jpg" class="rounded" style="height:180px; width:120px;">
+                    <h6 class="mt-2 mb-0">길 벨로우스</h6>
+                    <h7 class="opacity-75 fw-bold">출연</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="photo mb-5">
+        <h4 class="fw-bold mt-5">영상/포토</h4>
+            <div class="row">
+                <!-- 동영상 -->
+                <div class="col-6">
+                    <iframe width="650" height="315" src="https://www.youtube.com/embed/p8tgEikbrvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="rounded" allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+                    <iframe width="650" height="315" src="https://www.youtube.com/embed/v7vtswbmJ0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="rounded" allowfullscreen></iframe>
+                </div>
+                <!-- 이미지 -->
+                <div class="d-flex flex-row justify-content-between mt-3">
+                    <div>
+                        <img src="http://t1.daumcdn.net/movie/46ddad76632b50b03fcab83936d2144b62eb53ca" class="rounded" style="height:150px; width:315px;">
+                    </div>
+                    <div>
+                        <img src="http://t1.daumcdn.net/movie/0f3f103d88364401f90a7622ff6ba7bf46a51987" class="rounded" style="height:150px; width:315px;">
+                    </div>
+                    <div>
+                        <img src="http://t1.daumcdn.net/movie/2c12ce10fa2bcba9645c70b0c48e03e797a6fa24" class="rounded" style="height:150px; width:315px;">
+                    </div>
+                    <div style="position: relative;">
+                        <div class="rounded" style="position: absolute; width: 100%; height:100%; background-color: rgba(0, 0, 0, 0.4);"></div>
+                        <div style="position: absolute; top:45%; left:42%; color: white; font-size: xx-large; font-weight: bold;">+6</div>
+                        <img src="http://t1.daumcdn.net/movie/403713a7db54edbdb1231768a01f463c04c28ff6" class="rounded" style="height:150px; width:315px;">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    
+    <!-- 주요정보 modal -->
+    <div class="container">
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="movieinfo" aria-labelledby="offcanvasBottomLabel" style="height: 80vh;">
+            <div class="offcanvas-body small fs-7" style="line-height: 32px;">
+                <div class="container">
+                    <div class="main information mt-4 mb-3">
+                        <h4 class="fw-bold">두려움은 너를 죄수로 가두고 희망은 너를 자유롭게 하리라</h4>
+                    </div>
+                    <div>
+                        촉망 받던 은행 부지점장 ‘앤디(팀 로빈슨 分)’는 아내와 그 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범들이 수감된 이곳에서 재소자들은 짐승 취급 당하고, 혹여 간수 눈에 잘못 보였다가는 개죽음 당하기 십상이다. 처음엔 적응 못하던 ‘앤디’는 교도소 내 모든 물건을 구해주는 ‘레드(모건 프리먼 分)’와 친해지며 교도소 생활에 적응하려 하지만, 악질 재소자에게 걸려 강간까지 당한다.
+                        그러던 어느 날, 간수장의 세금 면제를 도와주며 간수들의 비공식 회계사로 일하게 되고, 마침내는 소장의 검은 돈까지 관리해주게 된다. 덕분에 교도소 내 도서관을 열 수 있게 되었을 무렵, 신참내기 ‘토미(길 벨로우스 分)’로부터 ‘앤디’의 무죄를 입증할 기회를 얻지만, 노튼 소장은 ‘앤디’를 독방에 가두고 ‘토미’를 무참히 죽여버리는데... 
+                         <hr>
+                        제작된 지 16년이 지난 지금에도 꾸준히 사랑 받고 있는 영화. 촉망받던 은행 부지점장 앤디는 아내와 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범이 수감된 이곳에서 재소자들은 짐승 취급을 당하거나, 간수 눈에 잘못 보이면 죽음을 당할 수도 있다. 적응하지 못하던 앤디는 간수장의 세금 면제를 도와주며 비공식 회계사로 일을 하게 되고, 조금씩 희망을 찾으려 하지만 이내 좌절당하는 일이 반복된다. 앤디는 감옥 생활에 길들여져 가면서도 끝까지 희망을 놓지 않는다. 절망적인 상황 속에서 인간의 나약함과 희망에 대해 이야기하는 영화 <쇼생크 탈출>은 미국 영화 정보 사이트 IMDB에서 <대부>를 제치고 네티즌 평점 1위를 받았다.
+                        (2016년 제4회 무주산골영화제)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- 출연/제작 modal -->
+    <div class="container">
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="director" aria-labelledby="offcanvasBottomLabel" style="height: 80vh;">
+            <div class="offcanvas-body small">
+                <div class="container">
+                    <div class="casting">
+                        <h4 class="fw-bold mt-5">출연진</h4>
+                        <hr>
+                        <div class="player">
+                            <div class="d-flex flex-row justify-content-between ">
+                                <div class="photo 1">
+                                    <img src="https://img1.daumcdn.net/thumb/C246x358/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcfile%2F15404110ADFC72D333" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">프랭크 다라본트</h6>
+                                    <h7 class="opacity-75 fw-bold">감독</h7>
+                                </div>
+                
+                                <div class="photo 2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TimRobbinsTIFFSept2012.jpg/250px-TimRobbinsTIFFSept2012.jpg" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">팀 로빈스</h6>
+                                    <h7 class="opacity-75 fw-bold">주연</h7>
+                                </div>
+                
+                                <div class="photo 3">
+                                    <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQUvs_hgFsinspQ2Zk0UqJ15JI_yGtj4Jgj37-jLiQWT8zLMP9Wvt2X4ktuhiqYqkJI" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">모건 프리먼</h6>
+                                    <h7 class="opacity-75 fw-bold">주연</h7>
+                                </div>
+                
+                                <div class="photo 4">
+                                    <img src="https://w.namu.la/s/198bb1d81570cd21b89b9aaca43421e1f77f82f2f136e83a8764952adce0fb821ccae03a20c629054aa9f675e824c24d2119d6162dd31b0f7984e8937579eb41fffccd4f6b1f2572d750f4b44089907db483759cec8a6b56f1eff598ce3a092e5e8f4760a85ac6f488611a21587d1d57" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">밥 건튼</h6>
+                                    <h7 class="opacity-75 fw-bold">출연</h7>
+                                </div>
+                
+                                <div class="photo 5">
+                                    <img src="https://w.namu.la/s/d27aeddaf2e06127fd94d6b5f317adb2c4389f15891fb31e6d76626d26393488b5fb2ce9664c79b326aada23804508d367c8c5817f0a7e5ebbb59d7f2bba03fc33c6339e0b5b00c64f6c601fd37893f431f0d7525f31c4bbb5f21bcd078253f6e3ba07d2040473c7ee1f32655bd5b6b4" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">윌리엄 새들러</h6>
+                                    <h7 class="opacity-75 fw-bold">출연</h7>
+                                </div>
+                
+                                <div class="photo 6">
+                                    <img src="https://w.namu.la/s/f792da074d9e3b41383160113011cf8124a6eaa55bcbdb5d36f5b55cf84c663e5c0bd5abf57ef82eecbbe32c110611b2473a0e892730be97e6613fe94034e061f448c43b19cf34d79b4e877073d11a0071e9ccf95872ab3fa53c470403da54460f5e319deba87717eb893ba5d5806ae6" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">클랜시 브라운</h6>
+                                    <h7 class="opacity-75 fw-bold">출연</h7>
+                                </div>
+                
+                                <div class="photo 7">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/GilBellows08TIFF.jpg/250px-GilBellows08TIFF.jpg" class="rounded" style="height:180px; width:120px;">
+                                    <h6 class="mt-2 mb-0">길 벨로우스</h6>
+                                    <h7 class="opacity-75 fw-bold">출연</h7>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- 영상/포토 modal -->
+    <div class="container">
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="video" aria-labelledby="offcanvasBottomLabel" style="height: 80vh;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasBottomLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+             <div class=" container">
+                <div class="photo">
+                    <h4 class="fw-bold">영상/포토</h4>
+                    <hr>
+                        <div class="row">
+                            <!-- 동영상 -->
+                            <div class="col-6">
+                                <iframe width="650" height="315" src="https://www.youtube.com/embed/p8tgEikbrvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="rounded" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-6">
+                                <iframe width="650" height="315" src="https://www.youtube.com/embed/v7vtswbmJ0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="rounded" allowfullscreen></iframe>
+                            </div>
+                            <!-- 이미지 -->
+                            <div class="d-flex flex-row justify-content-between mt-3">
+                                <div>
+                                    <img src="http://t1.daumcdn.net/movie/46ddad76632b50b03fcab83936d2144b62eb53ca" class="rounded" style="height:150px; width:315px;">
+                                </div>
+                                <div>
+                                    <img src="http://t1.daumcdn.net/movie/0f3f103d88364401f90a7622ff6ba7bf46a51987" class="rounded" style="height:150px; width:315px;">
+                                </div>
+                                <div>
+                                    <img src="http://t1.daumcdn.net/movie/2c12ce10fa2bcba9645c70b0c48e03e797a6fa24" class="rounded" style="height:150px; width:315px;">
+                                </div>
+                                <div style="position: relative;">
+                                    <div class="rounded" style="position: absolute; width: 100%; height:100%; background-color: rgba(0, 0, 0, 0.4);"></div>
+                                    <div style="position: absolute; top:45%; left:42%; color: white; font-size: xx-large; font-weight: bold;">+6</div>
+                                    <img src="http://t1.daumcdn.net/movie/403713a7db54edbdb1231768a01f463c04c28ff6" class="rounded" style="height:150px; width:315px;">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- 평점 -->
+    <div class="container">
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="score" aria-labelledby="offcanvasBottomLabel" style="height: 80vh;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasBottomLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body large">
+                <div class="container">
+                    <div class="score">
+                        <h4 class="fw-bold">네티즌 평점</h4>
+                        <hr>
+                        <form name="myform" id="myform" method="post" action="./save" style="margin-top:-15px">
+                            <fieldset>
+                                <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">⭐</label>
+                                <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                                <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                                <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                                <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                            </fieldset>
+                        </form>
+                        <label for="inputPassword5" class="form-label">의견을 자유롭게 작성해주세요.</label>
+                        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="로그인 해주세요.">
+                    </div>    
+                    
+                    <div class="comment mt-2">
+                        <h7 class="mx-2">추천댓글</h7>
+                        <h7 class="fw-bold">찬반순</h7>
+                        <h7>최신순</h7>
+                        <h7>과거순</h7>
+                        <hr>
+                        <div class="comments mb-1">
+                            
+                            
+                            <div class="comment 1">
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt="">
+                                <span style="font-size: 7px; font-weight: bold;">10</span>
+                                </h7><br>새장안에 가둬두면 죽는 새들이 있다.<br>
+                                바로 나같은 사람....<br>
+                                
+                                험난하고도 무료한 삶을 살면서 1년에 한번꼴로<br> 
+                                찾아낼수 있는 소장용 명작.<br>
+                                삶에 위안을 주는......<br>
+                                
+                                흠이 있다면 번역자가 멍청하게도<br>
+                                제목에 영화의 반전을 미리 알려줘버렸다.<br>
+                                덕분에 한국관객들은 반전을 알고 영화를본셈....<br>
+                                
+                                원래제목은 쇼생크 레뎀션이다.<br>
+                                사소한 번역실수 하나가 영화를 망치기도한다.<br>
+                                사실 내 생각에 실수라기보단 계획된 짓 같지만....<br>
+                                <h8 class="fw-bold" style="color:blue;">winny</h8>
+                                <h8 class="mx-3"style="font-size:small">2020.03.27.21:41</h8>
+                            </div>
+
+                            <div class="comment 2 mt-3">
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt="">
+                                <span style="font-size: 7px; font-weight: bold;">10</span>
+                                <br>내가 꼽은 최초의 인생영화 ㅋ<br>
+                                그때 고 1, 2 쯤 되었는데...<br>
+                                극장에서 보던 영화에 이렇게 감동 받아본게 처음이었던 기억이...<br>
+                                두고두고 명작이다.<br>
+                                95년 아카데미 작품상 포레스트 검프도 훌륭하지만 단 한개의 상도 건지지 못하고 모든 분야에서 2위라니... 아쉽지만  ⟨무관의 제왕⟩  별명답게 여전히 세계인들이 가장 좋아하는 영화중 하나. <br>
+                                <h8 class="fw-bold" style="color:blue;">체리</h8>
+                                <h8 class="mx-3"style="font-size:small">2020.04.15.00:13</h8>
+                            </div>
+
+                            <div class="comment 3 mt-3">
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt=""></h7>
+                                <h7><img src="https://images-ext-1.discordapp.net/external/hF9EQZ9rU2jJmscHFE5RJ1k1jwwjU3k_WA_B9SR0HiI/https/www.citypng.com/public/uploads/preview/star-silhouette-red-icon-png-11637144478dj3nwistk7.png?width=15&height=15" alt="">
+                                <span style="font-size: 7px; font-weight: bold;">10</span>
+                                <br>흑흑 너무 재미있어요<br>
+                                벌써  1000번째 정주행입니다.<br>
+                                <h8 class="fw-bold" style="color:blue;">KDT-practice</h8>
+                                <h8 class="mx-3"style="font-size:small">2022.09.14.16:07</h8>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <style>
+        #myform fieldset{
+            display: inline-block; /* 하위 별점 이미지들이 있는 영역만 자리를 차지함.*/
+            direction: rtl; /* 이모지 순서 반전 */
+            border: 0; /* 필드셋 테두리 제거 */
+        }
+        #myform fieldset legend{
+            text-align: left;
+        }
+        #myform input[type=radio]{
+            display: none; /* 라디오박스 감춤 */
+        }
+        #myform label{
+            font-size: 3em; /* 이모지 크기 */
+            color: transparent; /* 기존 이모지 컬러 제거 */
+            text-shadow: 0 0 0 #f0f0f0; /* 새 이모지 색상 부여 */
+        }
+        #myform label:hover{
+            text-shadow: 0 0 0 #a00; /* 마우스 호버 */
+        }
+        #myform label:hover ~ label{
+            text-shadow: 0 0 0 #a00; /* 마우스 호버 뒤에오는 이모지들 */
+        }
+        #myform input[type=radio]:checked ~ label{
+            text-shadow: 0 0 0 #a00; /* 마우스 클릭 체크 */
+        }
+
+        *{font-family: 'Jua', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif !important;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
