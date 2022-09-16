@@ -475,3 +475,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;MDN JavaScript Docs</td>
 </tr>
+<td class="2주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.16</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️JavaScript](./2022.09%202%EC%A3%BC%EC%B0%A8/09.16.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Arrow function, addEventListener</td>
+</tr>
