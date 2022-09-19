@@ -485,3 +485,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Arrow function, addEventListener</td>
 </tr>
+<td class="2주차" style="width: 100px;"><b>9월 3주차 JS</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.19</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️JS Event](./2022.09%203%EC%A3%BC%EC%B0%A8/09.19.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Event</td>
+</tr>
