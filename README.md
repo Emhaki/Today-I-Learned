@@ -1,4 +1,4 @@
-# 😤고민하는 개발자
+# 😤즐기는 개발자
 
 <table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
@@ -504,4 +504,14 @@ OUTER JOIN, CROSS JOIN</td>
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;React Component</td>
+</tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.21</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Django + React](./2022.09%203%EC%A3%BC%EC%B0%A8/09.21.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Django, React lifeCycle</td>
 </tr>
