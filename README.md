@@ -529,9 +529,19 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="date" style="width: 100px;" align="center"><code>22.09.23</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
-[✏️React Ref](./2022.09%203%EC%A3%BC%EC%B0%A8/09.22.md)
+[✏️React Ref](./2022.09%203%EC%A3%BC%EC%B0%A8/09.23.md)
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Ref, DOM 조작</td>
+</tr>
+<td class="3주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.24</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️React component](./2022.09%203%EC%A3%BC%EC%B0%A8/09.24.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;상속, 합성</td>
 </tr>
