@@ -549,7 +549,7 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="date" style="width: 100px;" align="center"><code>22.09.26</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
-[✏️Django path](./2022.09%203%EC%A3%BC%EC%B0%A8/09.19.md)
+[✏️Django path](./2022.09%204%EC%A3%BC%EC%B0%A8/09.26.md)
 
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
