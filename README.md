@@ -545,3 +545,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;상속, 합성</td>
 </tr>
+<td class="4주차" style="width: 100px;"><b>9월 4주차 Django</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.09.26</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Django path](./2022.09%203%EC%A3%BC%EC%B0%A8/09.19.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;path, render, context, {{ }}</td>
+</tr>
