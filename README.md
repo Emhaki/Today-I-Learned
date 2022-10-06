@@ -605,3 +605,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;CRUD data조작</td>
 </tr>
+<td class="4주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.10.06</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Django](./2022.10%201%EC%A3%BC%EC%B0%A8/10.06.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Django admin, Django Bootstrap5</td>
+</tr>
