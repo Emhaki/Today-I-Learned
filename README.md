@@ -615,7 +615,7 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Django admin, Django Bootstrap5</td>
 </tr>
-<td class="4주차" style="width: 100px;">10월 2주차 Django</td>
+<td class="4주차" style="width: 100px;"><b>10월 2주차 Django</b></td>
     <td class="date" style="width: 100px;" align="center"><code>22.10.11</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
