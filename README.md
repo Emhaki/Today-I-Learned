@@ -615,7 +615,7 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Django admin, Django Bootstrap5</td>
 </tr>
-<td class="4주차" style="width: 100px;"></td>
+<td class="4주차" style="width: 100px;">10월 2주차 Django</td>
     <td class="date" style="width: 100px;" align="center"><code>22.10.11</code></td>
     <td class="Learned" style="width: 200px;" align="left">
 
@@ -624,4 +624,14 @@ OUTER JOIN, CROSS JOIN</td>
 </td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Django User create</td>
+</tr>
+<td class="1주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.10.12</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Django SignUp](./2022.10%202%EC%A3%BC%EC%B0%A8/10.12.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;Django SignUp</td>
 </tr>
