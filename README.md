@@ -655,3 +655,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;Comment Delete</td>
 </tr>
+<td class="4주차" style="width: 100px;"><b>10월 4주차 Django 모델관계설정</b></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.10.24</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️Django M:N](./2022.10%204%EC%A3%BC%EC%B0%A8/10.24.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp;M:N</td>
+</tr>
