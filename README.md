@@ -685,3 +685,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp;AJAX, Axios</td>
 </tr>
+<td class="4주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.10.31</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️프로젝트](./2022.10%204%EC%A3%BC%EC%B0%A8/10.27.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp; 프로젝트</td>
+</tr>
