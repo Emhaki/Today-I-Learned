@@ -695,3 +695,13 @@ OUTER JOIN, CROSS JOIN</td>
     <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
     <td class="Important" style="width: 100px;" align="center">&nbsp; 프로젝트</td>
 </tr>
+<td class="4주차" style="width: 100px;"></td>
+    <td class="date" style="width: 100px;" align="center"><code>22.11.07</code></td>
+    <td class="Learned" style="width: 200px;" align="left">
+
+[✏️10.31 ~ 11.07](./project-django/README.md)
+
+</td>
+    <td class="Record" style="width: 100px;" align="center">&nbsp;✅</td>
+    <td class="Important" style="width: 100px;" align="center">&nbsp; 맛집 서비스 프로젝트</td>
+</tr>
