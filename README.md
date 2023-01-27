@@ -1,4 +1,4 @@
-# 😤즐기는 개발자
+# 😤가치제공 개발자 
 
 <table style="border-collapse: collapse; width: 57.7907%; height: 262px; margin: 3;">
     <thead>
