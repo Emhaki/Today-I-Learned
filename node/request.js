@@ -1,3 +1,5 @@
+const { read } = require('./response');
+
 function encrypt(data) {
     return 'encrypted data';
 }
@@ -7,6 +9,6 @@ function send(url, data) {
     console.log(`${encryptedData} is being sent to ${url}`);
 }
 
-export {
+module.exports = {
     send,
 }
