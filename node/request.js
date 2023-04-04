@@ -1,4 +1,6 @@
-function encrypt(data) {
+module.exports.A = 1
+
+module.exports.encrypt = function encrypt(data) {
     return 'encrypted data';
 }
 
@@ -8,5 +10,5 @@ function send(url, data) {
 }
 
 module.exports = {
-    send
+    send,
 }

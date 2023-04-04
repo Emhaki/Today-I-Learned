@@ -7,5 +7,5 @@ function read() {
 }
 
 module.exports = {
-    read
+    read,
 }
