@@ -139,3 +139,17 @@ console.log(str.padStart(10, '!')) //!!!!!12345
 var str = 'Hello, Hello?!'
 console.log(str.replace('Hello', 'Hi')) // Hello, Hi!
 console.log(str.replace(/Hello/g, 'Hi')) // Hi, Hi?!
+
+// .slice()
+// 대상 문자의 일부를 추출해 새로운 문자를 반환
+var str = 'Hello world!'
+console.log(str.slice(0, 5)) // Hello
+console.log(str.slice(6, -1)) // world
+console.log(str.slice(6)) // world!
+console.log(str) // Hello wolrd!
+
+//.split()
+// 대상 문자를 주어진 구분자로 나눠 배열로 반환
+var str = 'Apple, Banana, Pear'
+console.log(str.split(', ')) // ['Apple', 'Banana', 'Pear']
+console.log(str.split('').reverse().join('')) // reaP, ananaB, elppA
