@@ -170,3 +170,40 @@ console.log(`${nuu.toLocaleString()}원`) // 1,000,000원
 // 주어진 값(숫자, 문자)을 파싱해 특정 진수의 형태로 반환
 var num = 3.14
 console.log(Number.parseInt(num, 10)) // 3
+
+// .at()
+// 대상 배열을 인덱싱한다.
+// 음수 값을 사용하면 뒤에서부터 인덱싱
+var arr = ['a', 'b', 'c']
+console.log(arr.at(0)) // a
+console.log(arr.at(-1)) // c
+
+// .concat()
+// 대상 배열과 주어진 배열을 병합해 새로운 배열을 반환
+var arr1 = ['a', 'b', 'c']
+var arr2 = ['d', 'e', 'f']
+var arr3 = arr1.concat(arr2)
+var arr4 = [...arr1, ...arr2] 
+console.log(arr3) // ['a', 'b', 'c', 'd', 'e', 'f']
+console.log(arr4) // ['a', 'b', 'c', 'd', 'e', 'f']
+
+// .every()
+// 대상 배열의 모든 요소가 콜백 테스트에서 참을 반환하는지 확인
+var arr = [1, 2, 3, 4]
+var isValid = arr.every(item => item < 5)
+console.log(isValid) // true
+
+// .filter()
+// 주어진 콜백 테스트를 통과하는 모든 요소를 새로운 배열로 반환
+// 모든 요소가 테스트를 통과하지 못하면 빈 배열을 반환
+var numbers = [1, 2, 3, 4, 31]
+var filteredNumbers = numbers.filter(number => number < 30)
+console.log(filteredNumbers) // [1 ,2, 3, 4]
+
+var users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+var adults = users.filter(user => user.age >= 19
+)
+console.log(adults) // [{ name: 'Myeonghak', age: 20 }]
