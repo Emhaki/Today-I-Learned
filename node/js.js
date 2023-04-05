@@ -49,3 +49,27 @@ const b = () => {
     console.log('B')
 }
 a(b)
+
+// 재귀(Recursive function)
+let i = 0
+const aa = () => {
+    console.log('A')
+    i += 1
+    if (i < 4) {
+        aa();
+    }
+}
+
+const userA = { name: 'A', parent: null }
+const userB = { name: 'B', parent: userA }
+const userC = { name: 'C', parent: userB }
+const userD = { name: 'D', parent: userC }
+
+const getRoottUser = (user) => {
+    if (user.parent) {
+        return getRoottUser(user.parent)
+    }
+    return user
+}
+
+console.log(getRoottUser(userD)) // userA 객체
