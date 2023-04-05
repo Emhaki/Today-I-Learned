@@ -73,3 +73,46 @@ const getRoottUser = (user) => {
 }
 
 console.log(getRoottUser(userD)) // userA 객체
+
+// this
+// 일반 함수의 this는 호출 위치에서 정의
+const userK = {
+    firstName: 'Myeonghak',
+    lastName:'Lee',
+    age: 20,
+    getFullName: function() {
+        return `${this.firstName} ${this.lastName}`
+    }
+}
+
+console.log(userK.getFullName()) //'Myeonghak Lee'
+
+// 화살표 함수의 this는 자신이 선언된 함수 범위에서 정의
+function user() {
+    this.firstName = 'Neo',
+    this.lastName = 'anda'
+
+    return {
+        firstName: 'Myeonghak',
+        lastName:'Lee',
+        age: 20,
+        getFullName: () => {
+            return `${this.firstName} ${this.lastName}`
+        }
+    }
+}
+
+const u = user()
+console.log(u.getFullName()) //'Neo anda'
+
+/// 화살표 함수의 this는 자신이 선언된 함수(멕시컬) 범위에서 정의 
+const timer = {
+    title: 'Timer',
+    timeout: function () {
+        console.log(this.title)
+        setTimeout(() => {
+            console.log(this.title)
+        }, 1000)
+    }
+}
+timer.timeout() // Timer
