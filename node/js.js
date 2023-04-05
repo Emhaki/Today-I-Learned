@@ -116,3 +116,26 @@ const timer = {
     }
 }
 timer.timeout() // Timer
+
+// .indexof() 일치하는 첫 번째 인덱스 반환, 없으면 -1 반환
+var str = 'Hello World'
+console.log(str.indexOf('world')) // 6
+console.log(str.indexOf('MH')) // -1
+
+if (!str.includes('MH')) {
+    console.log('not found')
+}
+
+// .padEnd() 대상 문자의 길이(length)가 지정된 길이보다 작으면
+// 주어진 문자를 지정된 길이까지 끝에 붙여 새로운 문자를 반환
+var str = '12345'
+console.log(str.padEnd(8, '0')) // 12345000
+console.log(str.padEnd(10, '!')) // 12345!!!!!
+console.log(str.padStart(10, '!')) //!!!!!12345
+
+// .replace()
+// 대상 문자에서 메인(문자, 정규식)과 일치하는 부분을 교체한 새로운 문자를 반환.
+
+var str = 'Hello, Hello?!'
+console.log(str.replace('Hello', 'Hi')) // Hello, Hi!
+console.log(str.replace(/Hello/g, 'Hi')) // Hi, Hi?!
