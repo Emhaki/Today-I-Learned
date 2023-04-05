@@ -207,3 +207,55 @@ var users = [
 var adults = users.filter(user => user.age >= 19
 )
 console.log(adults) // [{ name: 'Myeonghak', age: 20 }]
+
+// .find()
+// 대상 배열에서 콜백 테스트를 통과하는 첫 번째 요소를 반환
+var arr = [1, 2, 3, 4]
+var foundItem = arr.find(item => item > 2)
+console.log(foundItem) // 3
+
+var users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+var foundUser = users.find(user => user.name === 'Myeonghak')
+console.log(foundUser) // { name: 'Myeonghak', age: 10 }
+
+// .findIndex()
+// 대상 배열에서 콜백 테스트를 통과하는 첫 번째 요소의 인덱스 번호를 반환
+var arr = [1, 2, 3, 4]
+var index = arr.findIndex(item => item > 2)
+console.log(index) // 2
+
+// .flat()
+// 대상 배열의 모든 하위 배열을 지정한 깊이(Depth)까지 이어붙인 새로운 배열을 생성
+// 깊이의 기본값은 1
+var arr = [1, 2, [3, 4, [5, 6]]]
+console.log(arr.flat()) // [1, 2, 3, 4, [5, 6]]
+console.log(arr.flat(2)) // [1, 2, 3, 4, 5, 6]
+console.log(arr.flat(Infinity)) // [1, 2, 3, 4, 5, 6]
+
+// .forEach()
+// 대상 배열의 길이만큼 주어진 콜백을 실행
+var arr = [1, 2, 3, 4]
+arr.forEach(item => console.log(item)) // 1 2 3 4
+
+for (let i = 0; i < arr.length; i += 1) {
+    console.log(arr[i]) // 1 2 3 4
+}
+
+// .includes()
+// 대상 배열이 특정 요소를 포함하고 있는지 확인
+var arr = [1, 2, 3, 4]
+console.log(arr.includes(3)) // true
+console.log(arr.includes(5)) // false
+
+var users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+console.log(users.includes({ name: 'Myeonghak', age: 10 })) // false (참조형임)
+var neo = users[0]
+console.log(users.includes(neo)) // true
+
+
