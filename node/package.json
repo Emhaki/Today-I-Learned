@@ -1,7 +1,6 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "main": "https.js",
   "scripts": {
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html",
@@ -15,7 +14,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.3"
   },
   "description": ""
 }

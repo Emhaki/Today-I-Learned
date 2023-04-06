@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2015", // 타입스크립트를 자바스크립트로 변환
+        "module": "ESNext", // ECMAScript의 최신버전을 사용할 것
+        "moduleResolution": "Node",
+        "esModuleInterop": true, // CommonJS 호환
+        "lib": ["ESNext", "DOM"], // 변환할때 사용해야할 라이브러리
+        "strict": true // 엄격하게
+    },
+    "include": [
+        "src/**/*.ts"
+    ], // 파일위치
+    "exclude": [
+        "node_modules"
+    ] // 제외
+}
