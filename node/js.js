@@ -406,7 +406,7 @@ console.log(arraylike.constructor === Object) // true // 객체데이터
 Array.from(arraylike).forEach(item => console.log(item))
 
 // Array.isArray()
-// 배열 데이터인지 확인ㅇ
+// 배열 데이터인지 확인
 var array = ['A', 'B', 'C']
 var arraylike = {
     0: 'A',
@@ -417,3 +417,38 @@ var arraylike = {
 
 console.log(Array.isArray(array)) // true
 console.log(Array.isArray(arraylike)) // false
+
+// Object.assign()
+// 하나 이상의 출처(Source) 객체로부터 대상(Target) 객체로 속성을 복사하고 대상 객체를 반환
+var target = { a: 1, b: 2 }
+var source = { c: 3, d: 4 }
+var source2 = { e: 5, f: 6 }
+// var result = Object.assign(target, source, source2)
+var result = {
+    ...target,
+    ...source,
+    ...source2
+}
+console.log(target) // { a: 1, b: 3, c: 5, d: 6}
+console.log(result) // { a: 1, b: 3, c: 5, d: 6}
+
+// Object.entries()
+// 주어진 객체의 각 속성과 값으로 하나의 배열 만들어 요소로 추가한 2차원 배열을 반환
+var user = {
+    name: 'emhaki',
+    age: 20,
+    isValid: true,
+    email: 'hzdkv@example.com',
+}
+console.log(Object.entries(user))
+for (const [key, value] of Object.entries(user)) {
+    console.log(`${key}: ${value} 입니다.`)
+}
+
+// Object.keys()
+// 주어진 객체의 속성 이름을 나열한 배열
+console.log(Object.keys(user)) // ['name', 'age', 'isValid', 'email']
+
+// Object.values()
+// 주어진 객체의 값을 나열한 배열을 반환
+console.log(Object.values(user)) // ['emhaki', 20, true, 'hzdkv@example.com']
