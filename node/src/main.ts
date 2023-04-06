@@ -117,3 +117,40 @@ const mh: User2 & Validation = {
     age: 20,
     isValid: true
 }
+
+// 타입 단언(Assertion)
+// 단언 키워드 - as
+// Non-null 단언 연산자 - !
+
+// 1) 요소를 못 찾을 수 있음
+// const el = document.querySelector('body') as HTMLBodyElement
+// el.textContent = 'Hello World!' 
+const el = document.querySelector('body')
+if (el) {
+    el.textContent = 'Hello World!' 
+}
+
+// 2)
+function getNumber(x: number | null | undefined) {
+    if (x) {
+        return Number(x.toFixed(2))
+    }
+}
+getNumber(3.141592)
+getNumber(null) // 이 경우 타입에러 발생
+
+// 3)
+function getValue(x: string | number, isNumber: boolean) {
+    if (isNumber) {
+        return Number((x as number).toFixed(2))
+    } else {
+        return (x as string).toUpperCase()
+    }
+}
+getValue('hello world', false)
+getValue(3.141592, true) // 3.14
+
+// 할당 단언
+let num4!: number
+console.log(num4)
+num4 = 123
