@@ -319,15 +319,13 @@ var users = [
 ]
 
 // 나이 계산
-var totalAge = users.reduce((acc, cur) => {
-    return acc + cur.age
-}, 0)
+var totalAge = users.reduce((acc, cur) => acc + cur.age, 0)
 console.log(totalAge) // 30
 
 // 모든 이름 추출
-var nameArray = users.reduce((acc, cur) => {
-    acc.push(cur.name)
-    return acc
-}, [])
-var names = nameArray.join(',')
+var names = users
+    .reduce((acc, cur) => {
+        acc.push(cur.name)
+        return acc
+    }, []).join(', ')
 console.log(names) // Neo, Myeonghak
