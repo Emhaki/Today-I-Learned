@@ -452,3 +452,16 @@ console.log(Object.keys(user)) // ['name', 'age', 'isValid', 'email']
 // Object.values()
 // 주어진 객체의 값을 나열한 배열을 반환
 console.log(Object.values(user)) // ['emhaki', 20, true, 'hzdkv@example.com']
+
+// E.dataset
+// 요소의 각 data 속성 값을 얻거나 저장
+const el = document.querySelector('.child')
+const str = 'Hello World'
+const obj = { a: 1, b: 2 }
+
+el.dataset.helloWorld = str
+el.dataset.object = JSON.stringify(obj) // 문자화
+
+console.log(el.dataset.helloworld)
+console.log(el.dataset.object)
+console.log(JSON.parse(el.dataset.object))
