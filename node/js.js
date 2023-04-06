@@ -258,4 +258,57 @@ console.log(users.includes({ name: 'Myeonghak', age: 10 })) // false (참조형�
 var neo = users[0]
 console.log(users.includes(neo)) // true
 
+// .join()
+// 대상 배열의 모든 요소를 구분자로 연결한 문자를 반환
+var arr = ['apple', 'banana', 'pear']
+console.log(arr.join()) // apple,banana,pear
+console.log(arr.join(', ')) // apple, banana, pear
+console.elog(arr.join('/')) // apple/banana/pear
 
+// .map()
+// 대상 배열의 길이만큼 주어진 콜백을 실행하고, 콜백의 반환 값을 모아 새로운 배열을 반환
+var numbers = [1, 2, 3, 4]
+var newNumbers = numbers.map(item => item * 2)
+console.log(newNumbers) // [2, 4, 6, 8]
+console.log(numbers) // [1, 2, 3, 4]
+
+var users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+// 전개 연산자로 mapping
+var newUsers = users.map(user => {
+    return {
+        ...user,
+        isValid: true,
+        email: null,
+    }
+})
+console.log(newUsers)
+
+// .pop()
+// 대상 배열에서 마지막 요소를 제거하고 그 요소를 반환
+// 대상 배열 원본 변경
+var fruits = ['apple', 'banana', 'pear']
+console.log(fruits.pop()) // 'pear'
+console.log(fruits) // ['apple', 'banana']
+
+// .push()
+// 대상 배열의 마지막에 하나 이상의 요소를 추가하고, 배열의 새로운 길이를 반환
+// 대상 배열 원본 변경
+var fruits = ['apple', 'banana', 'pear']
+var newLength = fruits.push('peach')
+console.log(newLength) // 4
+console.log(fruits) // ['apple', 'banana', 'pear', 'peach']
+fruits.push('mango', 'strawberry')
+console.log(fruits) // ['apple', 'banana', 'pear', 'peach', 'mango', 'strawberry']
+
+// .reduce()
+// 대상 배열의 길이만큼 주어진 콜백을 실행하고, 마지막에 호출되는 콜백의 변환 값을 반환
+// 각 콜백의 반환 값은 다음 콜백으로 전달
+var numbers = [1, 2, 3, 4]
+var sum = numbers.reduce((accumulator, currentValue) => 
+    {
+    accumulator + currentValue
+    }, 0)
+console.log(sum) // 10
