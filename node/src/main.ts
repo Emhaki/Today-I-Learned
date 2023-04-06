@@ -73,3 +73,47 @@ hello2 = null
 hello2 = {}
 hello2 = []
 hello2 = function () {}
+
+// Unkown
+const aa: any = 123
+const u: unknown = 123
+// any는 되지만 unknown 타입은 에러를 반환
+const any: any = aa
+const boo: boolean = aa
+const num2: number = aa
+const arr2: string[] = aa
+const obj: { x: string, y: number } = aa
+
+// Tuple
+const tuple: [string, number, boolean] = ['a', 1, true]
+const users: [number, string, boolean] [] = [[1, 'a', true], [2, 'b', false], [3, 'c', true]]
+
+// Void // return 키워드 작성하지 않을 때 반환되는 값
+function hello3(msg: string): void {
+    console.log(`Hello ${msg}`);
+}
+const hi: void = hello3('world')
+
+// Never // 사용할 일이 별로 없음
+const nev: number[] = []
+nev.push(3)
+
+// Union
+let union2: (string | number | boolean)
+union2 = 'Hello'
+union2 = 123
+union2 = false
+
+/// Intersection
+interface User2 {
+    name: string,
+    age: number
+}
+interface Validation {
+    isValid: boolean
+}
+const mh: User2 & Validation = {
+    name: 'Emhaki',
+    age: 20,
+    isValid: true
+}
