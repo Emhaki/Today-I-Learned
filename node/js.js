@@ -329,3 +329,91 @@ var names = users
         return acc
     }, []).join(', ')
 console.log(names) // Neo, Myeonghak
+
+// .reverse()
+// 배열의 순서를 반전
+// 대상 배열 원본이 변경
+let arr = [1, 2, 3, 4]
+let reversed = arr.resverse()
+console.log(reversed) // [4, 3, 2, 1]
+console.log(arr) // [4, 3, 2, 1]
+
+// .shift() == popleft()
+// 대상 배열에서 첫 번째 요소를 제거, 제거된 요소를 반환
+// 대상 배열 원본 변경
+let arr = [1, 2, 3, 4]
+console.log(arr.shift()) // 1
+console.log(arr) // [2, 3, 4]
+
+// .slice()
+// 대상 배열의 일부를 추출해 새로운 배열 반환
+// 두 번째 인수 직전까지 추출, 두 번째 인수를 생략하면 대상 배열의 끝까지 추출
+let arr = ['A', 'B', 'C', 'D']
+console.log(arr.slice(0, 2)) // ['A', 'B']
+console.log(arr.slice(2, -1)) // ['C']
+console.log(arr.slice(2)) // ['D']
+
+// .some()
+// 대상 배열의 어떤 요소라도 콜백 테스트를 통과하는지 확인
+let arr = [1, 2, 3, 4]
+let isValid = arr.some(item => item > 2)
+console.log(isValid) // true\
+
+// .sort()
+// 대상 배열을 콜백의 반환 값(음수, 양수, 0)에 따라 정렬
+// 콜백을 제공하지 않으면, 요소를 문자열로 변환하고 유니코드 코드 포인트 순서로 정렬
+// 대상 배열 원본 변경
+let numbers = [1, 5, 100, 20]
+numbers.sort()
+console.log(numbers) // [1, 20, 100, 5]
+numbers.sort((a, b) => a - b)
+console.log(numbers) // [1, 5, 20, 100]
+
+let users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+
+users.sort((a, b) => a.age - b.age)
+console.log(users) // 내림차순 나이순으로 정렬
+
+// .splice()
+// 대상 배열 요소를 추가하거나 삭제하거나 교체
+// 대상 배열 원본이 변경
+let arr = [1, 2, 3, 4]
+arr.splice(1, 0, 'X') // 삽입위치, 제거수, 삽입할 요소
+console.log(arr) // [1, 'X', 2, 3, 4]
+
+// .unshift()
+// 새로운 요소를 대상 배열에 맨 앞에 추가하고 새로운 배열의 길이 반환
+// 대상 배열 원본이 변경
+var arr = [1, 2, 3, 4]
+console.log(arr.unshift(5)) // 5
+console.log(arr) // [5, 1, 2, 3, 4]
+
+// Array.from()
+// 유사 배열을 실제 배열로 반환
+var arraylike = {
+    0: 'A',
+    1: 'B',
+    2: 'C',
+    length: 3,
+}
+
+console.log(arraylike.constructor === Array) // false
+console.log(arraylike.constructor === Object) // true // 객체데이터
+// arraylike.forEach(item => console.log(item))
+Array.from(arraylike).forEach(item => console.log(item))
+
+// Array.isArray()
+// 배열 데이터인지 확인ㅇ
+var array = ['A', 'B', 'C']
+var arraylike = {
+    0: 'A',
+    1: 'B',
+    2: 'C',
+    length: 3,
+}
+
+console.log(Array.isArray(array)) // true
+console.log(Array.isArray(arraylike)) // false
