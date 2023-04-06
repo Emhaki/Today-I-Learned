@@ -312,3 +312,22 @@ var sum = numbers.reduce((accumulator, currentValue) =>
     accumulator + currentValue
     }, 0)
 console.log(sum) // 10
+
+var users = [
+    { name: 'Neo', age: 20 },
+    { name: 'Myeonghak', age: 10 },
+]
+
+// 나이 계산
+var totalAge = users.reduce((acc, cur) => {
+    return acc + cur.age
+}, 0)
+console.log(totalAge) // 30
+
+// 모든 이름 추출
+var nameArray = users.reduce((acc, cur) => {
+    acc.push(cur.name)
+    return acc
+}, [])
+var names = nameArray.join(',')
+console.log(names) // Neo, Myeonghak
