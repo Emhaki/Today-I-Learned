@@ -465,3 +465,13 @@ el.dataset.object = JSON.stringify(obj) // 문자화
 console.log(el.dataset.helloworld)
 console.log(el.dataset.object)
 console.log(JSON.parse(el.dataset.object))
+
+// window.scrollTo()
+// 지정된 좌표로 대상(화면, 스크롤 요소)을 스크롤
+setTimeout(() => {
+    window.scrollTo({
+        left: 0,
+        top: 500,
+        behavior:'smooth'
+    })
+}, 1000)
