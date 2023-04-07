@@ -291,3 +291,18 @@ function someFunction(param: TypeB): TypeA {
             return 'Boolean'
     }
 }
+
+// 함수 - 명시적 this
+interface Cat {
+    name: string
+    age: number
+}
+const cat: Cat = {
+    name: 'wishkat',
+    age: 3
+}
+// this는 Cat이라는 객체 데이터가 될 것이라고 명시적으로 선언
+function hello22(this: Cat, message: string) {
+    console.log(`Hello ${this.name}, ${message}`)
+}
+hello22.call(cat, 'You are pretty awesome') // Hello wishkat, You are pretty awesome
