@@ -373,3 +373,28 @@ const neo = new UserCC('Neo', 'Shinji', 18)
 console.log(neo.first)
 console.log(neo.last)
 console.log(neo.age)
+
+// 제네릭(Generic)
+/// 함수
+interface Obj {
+    x: number
+}
+type Arr = [number, number]
+
+// a, b는 모두 문자 데이터이며 반환 데이터도 string
+function toArray(a: string, b: string): string[]
+function toArray(a: number, b: number): number[]
+function toArray(a: boolean, b: boolean): boolean[]
+function toArray(a: any, b: any) {
+    return [a, b]
+}
+
+// 모두 저렇게 명시해줄 수 없으니 제네릭을 통해서 해결
+function toArray2<T>(a: T, b: T) {
+    return [a, b]
+}
+console.log(
+    toArray2<string>('Neo', 'Shinji'),
+    toArray2({ x: 1 }, { x: 2 }),
+    toArray2<Arr>([1, 2], [3, 4])
+)
