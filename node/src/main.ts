@@ -306,3 +306,23 @@ function hello22(this: Cat, message: string) {
     console.log(`Hello ${this.name}, ${message}`)
 }
 hello22.call(cat, 'You are pretty awesome') // Hello wishkat, You are pretty awesome
+
+// 함수 - 오버로딩(Overloading)
+// 1)
+function add4(a: string, b: string) {
+    return a + b
+}
+function add5(a: number, b: number) {
+    return a + b
+}
+add4('hello', 'world~') // 'hello world~'
+add5(10, 20) // 30
+
+// 2)
+function add6(a: string, b: string): string
+function add6(a: number, b: number): number
+function add6(a: any, b: any) {
+    return a + b
+}
+add6('hello', 'world~') // 'hello world~
+add6(10, 20) // 30
