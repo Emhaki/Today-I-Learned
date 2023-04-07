@@ -263,3 +263,31 @@ const emahki4: User7 = {
     age: 20,
     isValid: true
 }
+
+// 타입 별칭(Alias)
+type TypeA = string
+type TypeB = string | number | boolean
+type User8 = {
+    name: string
+    age: number
+    isValid: boolean
+} | [string, number, boolean]
+
+// 위에 | 를 통해 2가지 방식을 선언했기 때문에 아래 2가지 방법 가능
+const UserC: User8 = {
+    name: 'Emhaki',
+    age: 20,
+    isValid: true
+}
+const UserD: User8 = ['Emhaki', 20, true]
+// param이 string이라면, number라면 조건 형성
+function someFunction(param: TypeB): TypeA {
+    switch (typeof param) {
+        case 'string':
+            return param.toUpperCase()
+        case 'number':
+            return param.toFixed(2)
+        default:
+            return 'Boolean'
+    }
+}
