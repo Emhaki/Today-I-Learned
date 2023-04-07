@@ -218,3 +218,48 @@ const emhaki: User3 = {
     }
 }
 emhaki.getName('Hello!')
+
+// 인덱스 시그니처(Index Signature)
+// 배열
+interface Fruits {
+    [item: number]: string
+}
+const fruits2: Fruits = ['Apple', 'Banana', 'Orange']
+console.log(fruits2)
+// 0: Apple
+// 1: Banana
+// 2: Orange
+
+// 객체
+interface User4 {
+    [key: string]: unknown
+    name: string
+    age: number
+}
+const emhaki2: User4 = {
+    name: 'Emhaki',
+    age: 20
+}
+emhaki2['isValid'] = true
+emhaki2['emails'] = ['emhaki@gmail.com', 'test@gmail.com']
+console.log(emhaki2)
+
+// 인터페이스 확장(상속)
+interface User6 {
+    name: string
+    age: number
+}
+interface User7 extends User6 {
+    isValid: boolean
+}
+// User6는 name, age 2가지 정의
+const emahki3: User6 = {
+    name: 'Emhaki',
+    age: 20
+}
+// User7은 User6 확장되어 3가지 정의
+const emahki4: User7 = {
+    name: 'Emhaki',
+    age: 20,
+    isValid: true
+}
