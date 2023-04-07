@@ -398,3 +398,33 @@ console.log(
     toArray2({ x: 1 }, { x: 2 }),
     toArray2<Arr>([1, 2], [3, 4])
 )
+
+// 제네릭(Generic)
+/// 클래스
+class User11<P> {
+    constructor(public payload: P) {}
+    getPayload() {
+        return this.payload
+    }
+}
+interface UserATpye {
+    name: string
+    age: number
+    isValid: boolean
+}
+interface UserBtype {
+    name: string
+    age: number
+    emails: string[]
+}
+
+const emahki5 = new User11<UserATpye>({
+    name: 'emhaki',
+    age: 20,
+    isValid: true,
+})
+const neo2 = new User11<UserBtype>({
+    name: 'neo',
+    age: 20,
+    emails: ['emhaki@gmail.com', 'test@gmail.com'],
+})
