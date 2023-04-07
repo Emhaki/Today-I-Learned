@@ -429,6 +429,7 @@ const neo2 = new User11<UserBtype>({
     emails: ['emhaki@gmail.com', 'test@gmail.com'],
 })
 
+/// <reference path="./main.d.ts"/>
 import _ from 'lodash'
 const str2 = 'the brown fox jumps over the lazy dog'
 console.log(_.camelCase(str2))
