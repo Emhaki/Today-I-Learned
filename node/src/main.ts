@@ -197,3 +197,24 @@ const haki2: User = {
     name: 'Luna',
     age: 30,
 }
+
+// 인터페이스(Interface)
+// 함수 타입 - 호출 시그니처(Call Signature)
+interface GetName {
+    (message: string): string
+}
+
+interface User3 {
+    name: string
+    age: number
+    getName: (message: string) => string
+}
+const emhaki: User3 = {
+    name: 'Emhaki',
+    age: 20,
+    getName(message: string) {
+        console.log(message)
+        return this.name
+    }
+}
+emhaki.getName('Hello!')
