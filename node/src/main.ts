@@ -428,3 +428,9 @@ const neo2 = new User11<UserBtype>({
     age: 20,
     emails: ['emhaki@gmail.com', 'test@gmail.com'],
 })
+
+import _ from 'lodash'
+const str2 = 'the brown fox jumps over the lazy dog'
+console.log(_.camelCase(str2))
+console.log(_.snakeCase(str2))
+console.log(_.kebabCase(str2))
