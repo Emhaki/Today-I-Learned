@@ -39,8 +39,8 @@ const func: object = function () {}
 
 interface User {
     name: string,
-    age: number
-    isValid: boolean
+    readonly age: number
+    isValid?: boolean
 }
 
 const userA: User = {
@@ -179,3 +179,21 @@ function add2(val: string | number | boolean) {
 
 add2(3.141592) // 3.14
 add2('Hello World!') // HELLO WORLD!
+
+// 인터페이스(Interface)
+// 선택적 속성 - ?
+// 읽기전용 속성 - readonly
+interface User {
+    name: string
+    readonly age: number
+    isValid?: boolean
+}
+const haki: User = {
+    name: 'Emhaki',
+    age: 20,
+    isValid: true
+}
+const haki2: User = {
+    name: 'Luna',
+    age: 30,
+}
