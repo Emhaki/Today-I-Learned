@@ -154,3 +154,28 @@ getValue(3.141592, true) // 3.14
 let num4!: number
 console.log(num4)
 num4 = 123
+
+// 타입 가드(Guards)
+function logText(el: Element) {
+    console.log(el.textContent)
+}
+
+// 요소를 찾지 못하면 null이 나옴 -> if문으로 처리
+const h1El = document.querySelector('h1')
+if (h1El instanceof HTMLHeadingElement) {
+    logText(h1El)
+}
+
+function add2(val: string | number | boolean) {
+    let res = 'Result => '
+    if (typeof val === 'number') {
+        res += val.toFixed(2)
+    } 
+    if (typeof val === 'string') {
+        res += val.toUpperCase()
+    }
+    console.log(res)
+}
+
+add2(3.141592) // 3.14
+add2('Hello World!') // HELLO WORLD!
