@@ -335,18 +335,18 @@ add6(10, 20) // 30
 
 class UserA {
     // body
-    first: string
-    last: string
-    age: number
+    // first: string
+    // last: string
+    // age: number
     /// public
     // public first: string = ''
     // public last: string = ''
     // public age: number = 0
 
     /// protected
-    // public first: string = ''
-    // public last: string = ''
-    // public age: number = 0
+    public first: string = ''
+    public last: string = ''
+    public age: number = 0
 
     /// private
     // public private first: string = ''
