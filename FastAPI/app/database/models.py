@@ -1,3 +1,5 @@
+import os
+import sys
 from sqlalchemy import (
     Column,
     Integer,
@@ -8,12 +10,12 @@ from sqlalchemy import (
     Boolean,
     ForeignKey,
 )
-from sqlalchemy.orm import Session, relationship
-from app.database.conn import Base, db
+from database.conn import Base
 
-class Users(Base, BaseMixin):
+class Users(Base):
     __tablename__ = "users"
     
+    id = Column(Integer, primary_key=True, index=True)
     status = Column(Enum("active", "deleted", "blocked"), default="active")
     email = Column(String(length=255), nullable=True)
     pw = Column(String(length=2000), nullable=True)
@@ -22,4 +24,4 @@ class Users(Base, BaseMixin):
     profile_img = Column(String(length=1000), nullable=True)
     sns_type = Column(Enum("FB", "G", "K"), nullable=True)
     marketing_agree = Column(Boolean, nullable=True, default=True)
-    keys = relationship("ApiKeys", back_populates="users")
+    # keys = relationship("ApiKeys", back_populates="users")
