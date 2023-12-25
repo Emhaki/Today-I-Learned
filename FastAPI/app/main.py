@@ -1,25 +1,37 @@
-from fastapi import Depends, FastAPI
-from database.conn import Session
+from fastapi import APIRouter, Body, Depends, FastAPI
+from database.schemas import RecruitmentCreate
 from database import models
-from database.models import Users
-from database.conn import engine
+from database.models import Users, Recruitment
+from database.conn import engine, Session
 
 app = FastAPI()
+router = APIRouter()
 session = Session()
 
 models.Base.metadata.create_all(bind=engine)
+app.include_router(
+    router,
+    prefix="/recruitment",
+    tags=["recruitment"]    
+)
 
-@app.get("/")
-def index():
+@app.post("/create", response_model=RecruitmentCreate)
+async def create_recruitment(recruitment_data: RecruitmentCreate = Body(...)):
+    data = Recruitment.create(session=session, **recruitment_data.dict())
+    return data
 
-    example = session.query(Users).all()
+# @app.get("/")
+# def index():
 
-    return example
+#     example = session.query(Users).all()
 
-@app.post("/create")
-def create_user():
-    user = Users(id=1, name="haki_test")
-    session.add(user)
-    session.commit()
-    session.refresh(user)
-    return user
+#     return example
+
+# @app.post("/create")
+# def create_user():
+#     user = Users(id=2, name="user_test")
+#     session.add(user)
+#     session.commit()
+#     session.refresh(user)
+#     return user
+

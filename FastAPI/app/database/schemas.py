@@ -13,3 +13,12 @@ class User(BaseModel):
 
     class Config:
         orm_mode = True
+
+class RecruitmentCreate(BaseModel):
+    company_id: int
+    recruit_position: str
+    recruit_reward: int
+    recruit_content: str
+    use_skill: str
+
+    

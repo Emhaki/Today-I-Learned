@@ -5,8 +5,6 @@ from starlette.responses import Response
 from starlette.requests import Request
 from inspect import currentframe as frame
 
-router = APIRouter()
-
 
 @router.get("/")
 async def index():
