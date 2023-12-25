@@ -7,6 +7,7 @@ from sqlalchemy import (
     Enum,
     Boolean,
     ForeignKey,
+    select,
 )
 from database.conn import Base, Session
 from sqlalchemy.orm import relationship
@@ -54,6 +55,33 @@ class Recruitment(Base):
         session.commit()
         return new_recruitment
     
+    @classmethod
+    def modify(cls, session, company_id, recruit_position, recruit_reward, recruit_content, use_skill):
+        
+        result = session.execute(
+            select(Recruitment)
+            .where(Recruitment.company_id == company_id)
+        )
+        
+        data = result.scalar()
+        # session.delete(data)
+        # session.commit()
+        # return data
+        if data:
+            # 레코드를 찾았을 때만 수정 수행
+            data.company_id = company_id
+            data.recruit_position = recruit_position
+            data.recruit_reward = recruit_reward
+            data.recruit_content = recruit_content
+            data.use_skill = use_skill
+
+            session.commit()
+            return data
+        else:
+            # 레코드가 없을 경우 None반환
+            return None
+        
+
 
 class Company(Base):
     __tablename__ = "company"

@@ -20,6 +20,11 @@ async def create_recruitment(recruitment_data: RecruitmentCreate = Body(...)):
     data = Recruitment.create(session=session, **recruitment_data.dict())
     return data
 
+@app.post("/modify", response_model=RecruitmentCreate)
+async def modify_recruitment(recruitment_data: RecruitmentCreate = Body(...)):
+    data = Recruitment.modify(session=session, **recruitment_data.dict())
+    return data
+
 # @app.get("/")
 # def index():
 
