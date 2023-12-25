@@ -81,7 +81,21 @@ class Recruitment(Base):
             # 레코드가 없을 경우 None반환
             return None
         
+    @classmethod
+    def delete(cls, session, company_id):
 
+        result = session.execute(
+            select(Recruitment)
+            .where(Recruitment.company_id == company_id)
+        )
+
+        data = result.scalar()
+        if data:
+
+            session.delete(data)
+            session.commit()
+
+            return "Success"
 
 class Company(Base):
     __tablename__ = "company"
