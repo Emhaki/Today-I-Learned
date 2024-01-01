@@ -1,4 +1,7 @@
+from typing import List
 from fastapi import APIRouter, Body, Depends, FastAPI
+from database.models import Company
+from database.schemas import CompanyCreate
 from database.schemas import RecruitmentList
 from database.schemas import RecruitmentCreate
 from database import models
@@ -31,17 +34,15 @@ async def delete_recruitment(company_id: str):
     data = Recruitment.delete(session=session, company_id=company_id)
     return data
 
-@app.get("/index", response_model=RecruitmentList)
+@app.get("/index", response_model=List[RecruitmentList])
 async def get_recruitment_list():
     data = Recruitment.get(session=session)
     return data
 
-# @app.get("/")
-# def index():
-
-#     example = session.query(Users).all()
-
-#     return example
+@app.post("/company")
+def create_company(company_data: CompanyCreate = Body(...)):
+    data = Company.create(session=session, **company_data.dict())
+    return data
 
 # @app.post("/create")
 # def create_user():

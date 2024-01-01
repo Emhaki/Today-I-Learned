@@ -42,17 +42,22 @@ class Recruitment(Base):
 
     @classmethod
     def get(cls, session):
-        stmt = select(Recruitment, Company).join(Company)
+        stmt = (
+            select(Recruitment, Company)
+            .join(Company)
+            .where(Recruitment.company_id == Company.id)
+        )
         result = session.execute(stmt)
         data = result.fetchall()
 
         recruitment_list = []
         
         for recruitment, company in data:
+            print(recruitment, company)
             recruitment_list.append({
                 "recruitment_id": recruitment.id,
                 "company_name": company.name,
-                "nation": company.country,
+                "country": company.country,
                 "region": company.region,
                 "recruit_position": recruitment.recruit_position,
                 "recruit_reward": recruitment.recruit_reward,
@@ -126,3 +131,17 @@ class Company(Base):
     region = Column(String(20), nullable=False)
 
     recruitment = relationship("Recruitment", back_populates="company")
+
+    @classmethod
+    def create(cls, session, id, name, country, region):
+        company_data = {
+            "id": id,
+            "name": name,
+            "country": country,
+            "region": region
+        }
+
+        new_company = cls(**company_data)
+        session.add(new_company)
+        session.commit()
+        return new_company
