@@ -21,4 +21,11 @@ class RecruitmentCreate(BaseModel):
     recruit_content: str
     use_skill: str
 
-    
+class RecruitmentList(BaseModel):
+    recruitment_id: int
+    company_name: str
+    nation: str
+    region: str
+    recruit_position: str
+    recruit_reward: int
+    use_skill: str

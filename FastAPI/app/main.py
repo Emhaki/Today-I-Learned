@@ -1,5 +1,5 @@
-import json
 from fastapi import APIRouter, Body, Depends, FastAPI
+from database.schemas import RecruitmentList
 from database.schemas import RecruitmentCreate
 from database import models
 from database.models import Users, Recruitment
@@ -29,6 +29,11 @@ async def modify_recruitment(recruitment_data: RecruitmentCreate = Body(...)):
 @app.post("/delete", response_model=str)
 async def delete_recruitment(company_id: str):
     data = Recruitment.delete(session=session, company_id=company_id)
+    return data
+
+@app.get("/index", response_model=RecruitmentList)
+async def get_recruitment_list():
+    data = Recruitment.get(session=session)
     return data
 
 # @app.get("/")

@@ -41,6 +41,27 @@ class Recruitment(Base):
     company = relationship("Company", back_populates="recruitment")
 
     @classmethod
+    def get(cls, session):
+        stmt = select(Recruitment, Company).join(Company)
+        result = session.execute(stmt)
+        data = result.fetchall()
+
+        recruitment_list = []
+        
+        for recruitment, company in data:
+            recruitment_list.append({
+                "recruitment_id": recruitment.id,
+                "company_name": company.name,
+                "nation": company.country,
+                "region": company.region,
+                "recruit_position": recruitment.recruit_position,
+                "recruit_reward": recruitment.recruit_reward,
+                "use_skill": recruitment.use_skill
+            })
+
+        return recruitment_list
+
+    @classmethod
     def create(cls, session, company_id, recruit_position, recruit_reward, recruit_content, use_skill):
         recruitment_data = {
             "company_id": company_id,
@@ -91,7 +112,6 @@ class Recruitment(Base):
 
         data = result.scalar()
         if data:
-
             session.delete(data)
             session.commit()
 
